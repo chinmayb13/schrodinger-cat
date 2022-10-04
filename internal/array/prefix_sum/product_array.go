@@ -31,44 +31,44 @@ Output 2:
 func GetProductArray(A []int) []int {
 	arrLength := len(A)
 	var productArr []int
-	prefixSum := getPrefixSum(A)
-	suffixSum := getSuffixSum(A)
+	prefixProduct := getPrefixProduct(A)
+	suffixProduct := getSuffixProduct(A)
 	for i := range A {
 		//nothing on the left
 		if i == 0 {
-			productArr = append(productArr, suffixSum[i+1])
+			productArr = append(productArr, suffixProduct[i+1])
 			//nothing on the right
 		} else if i == arrLength-1 {
-			productArr = append(productArr, prefixSum[i-1])
+			productArr = append(productArr, prefixProduct[i-1])
 		} else {
-			productArr = append(productArr, prefixSum[i-1]*suffixSum[i+1])
+			productArr = append(productArr, prefixProduct[i-1]*suffixProduct[i+1])
 		}
 	}
 	return productArr
 
 }
 
-func getPrefixSum(A []int) []int {
-	var prefixSum []int
+func getPrefixProduct(A []int) []int {
+	var prefixProduct []int
 	for i := range A {
 		if i == 0 {
-			prefixSum = append(prefixSum, A[i])
+			prefixProduct = append(prefixProduct, A[i])
 		} else {
-			prefixSum = append(prefixSum, prefixSum[i-1]*A[i])
+			prefixProduct = append(prefixProduct, prefixProduct[i-1]*A[i])
 		}
 	}
-	return prefixSum
+	return prefixProduct
 }
 
-func getSuffixSum(A []int) []int {
+func getSuffixProduct(A []int) []int {
 	arrLength := len(A)
-	suffixSum := make([]int, arrLength)
+	suffixProduct := make([]int, arrLength)
 	for i := arrLength - 1; i >= 0; i-- {
 		if i == arrLength-1 {
-			suffixSum[i] = A[i]
+			suffixProduct[i] = A[i]
 		} else {
-			suffixSum[i] = suffixSum[i+1] * A[i]
+			suffixProduct[i] = suffixProduct[i+1] * A[i]
 		}
 	}
-	return suffixSum
+	return suffixProduct
 }
