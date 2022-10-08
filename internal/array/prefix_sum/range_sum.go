@@ -65,8 +65,8 @@ func GetRangeSum(A []int, B [][]int) []int64 {
 	for _, row := range B {
 		if row[0] == 1 {
 			resultSum = append(resultSum, prefixSum[row[1]-1])
-		//sum[L,R] = sum[R] - sum[L-1]
-			} else {
+			//sum[L,R] = sum[R] - sum[L-1]
+		} else {
 			resultSum = append(resultSum, prefixSum[row[1]-1]-prefixSum[row[0]-2])
 		}
 	}
