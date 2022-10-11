@@ -30,11 +30,11 @@ Return an integer array containing indices(0-based) in sorted order. If no such 
 Example Input
 Input 1:
 A = [1, 0, 1, 0, 1]
-B = 1 
+B = 1
 
 Input 2:
 A = [0, 0, 0, 1, 1, 0, 1]
-B = 0 
+B = 0
 
 
 Example Output
@@ -49,7 +49,7 @@ Example Explanation
 Explanation 1:
 Index 1 acts as a centre of alternating sequence: [A0, A1, A2]
 Index 2 acts as a centre of alternating sequence: [A1, A2, A3]
-Index 3 acts as a centre of alternating sequence: [A2, A3, A4] 
+Index 3 acts as a centre of alternating sequence: [A2, A3, A4]
 
 Explanation 2:
 Each index in the array acts as the center of alternating sequences of lengths 1.
@@ -70,14 +70,13 @@ func GetAlternateSubArrCentreIdxList(A []int, B int) []int {
 	return centreIdxArr
 }
 
-
 //check if the array is a palindrome with alternating sequence
 func isPalindrome(input []int) bool {
 	for i, j := 0, len(input)-1; i <= j; i, j = i+1, j-1 {
 		if input[i] != input[j] {
 			return false
 		}
-		if i > 0 && input[i]==input[i-1] {
+		if i > 0 && input[i] == input[i-1] {
 			return false
 		}
 	}
