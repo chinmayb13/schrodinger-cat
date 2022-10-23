@@ -45,8 +45,6 @@ Removing arr[2] from the given array modifies arr[] to { 1, 1 } such that arr[0]
 Therefore, the required output is 3.
 */
 
-
-
 func GetSpecialIndexCount(A []int) int {
 	idxCount := 0
 	oddPrefixSum := buildOddPrefixSum(A)
