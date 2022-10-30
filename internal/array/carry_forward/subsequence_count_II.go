@@ -1,9 +1,10 @@
 package carryforward
 
+//TODO: need to fix the logic
 func GetSubSeqCountII(A string) int {
 	//number of occurences of character A and X
 	countA := 0
-	countX := 0
+	countAX := 0
 
 	//Total subsequence count
 	subSeqCount := 0
@@ -13,11 +14,11 @@ func GetSubSeqCountII(A string) int {
 			countA++
 
 		} else if A[i] == 'X' {
-			//increase character A count
-			countX++
+			//increase character AX count
+			countAX += countA
 		} else if A[i] == 'G' {
 			//the count would be as many AX combinations present when G was encountered + previous subsequence count
-			subSeqCount += countA * countX
+			subSeqCount += countAX
 		}
 	}
 	return subSeqCount % (1e9 + 7)
