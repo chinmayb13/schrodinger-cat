@@ -39,6 +39,16 @@ Explanation 1:
 Explanation 2:
 43535321 % 47 = 20
 */
+
+func GetArrayModAlt(A []int, B int) int {
+	num := 0
+	for i := 0; i < len(A); i++ {
+		num = (num*10 + A[i]) % B
+	}
+	return num
+}
+
+//approach: num=num+A[i]*pow
 func GetArrayMod(A []int, B int) int {
 	num := 0
 	var pow int64 = 1
