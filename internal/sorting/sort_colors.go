@@ -71,3 +71,23 @@ func GetSortedColors(A []int) []int {
 
 	return A
 }
+
+//using Dutch National Flag Algorithm
+func GetSortedColorsDNF(A []int) []int {
+	low, mid := 0, 0
+	high := len(A) - 1
+	for mid <= high {
+		switch A[mid] {
+		case 0:
+			A[mid], A[low] = A[low], A[mid]
+			mid++
+			low++
+		case 1:
+			mid++
+		case 2:
+			A[mid], A[high] = A[high], A[mid]
+			high--
+		}
+	}
+	return A
+}
