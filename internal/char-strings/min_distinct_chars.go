@@ -51,3 +51,26 @@ func GetMinDistinctChars(A string, B int) int {
 	}
 	return uniqueCount
 }
+
+func GetMinDistinctCharsAlt(A string, B int) int {
+	charArr := make([]int, 26)
+	count := 0
+	for i := range A {
+		charArr[A[i]-'a']++
+
+	}
+	sort.Ints(charArr)
+	for i := range charArr {
+		frequency := charArr[i]
+		if frequency <= B && B > 0 {
+			B -= frequency
+		} else if frequency > 0 {
+			count++
+		}
+
+	}
+	if count == 0 {
+		return 1
+	}
+	return count
+}
