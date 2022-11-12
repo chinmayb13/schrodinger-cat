@@ -29,3 +29,30 @@ func MinMeetingRooms(intervals [][]int) int {
 	}
 	return count
 }
+
+func MinMeetingRoomsAlt(intervals [][]int) int {
+	if len(intervals) <= 1 {
+		return 1
+	}
+	maxInterval := -1
+	for i := range intervals {
+		if intervals[i][1] > maxInterval {
+			maxInterval = intervals[i][1]
+		}
+	}
+
+	timeslot := make([]int, maxInterval+1)
+	for i := range intervals {
+		timeslot[intervals[i][0]]++
+		timeslot[intervals[i][1]]--
+	}
+
+	minRooms := 0
+	for i := 1; i < len(timeslot); i++ {
+		timeslot[i] += timeslot[i-1]
+		if timeslot[i] > minRooms {
+			minRooms = timeslot[i]
+		}
+	}
+	return minRooms
+}
