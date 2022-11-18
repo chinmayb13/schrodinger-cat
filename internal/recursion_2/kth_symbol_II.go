@@ -6,8 +6,8 @@ On the first row, we write a 0. Now in every subsequent row, we look at the prev
 Given row number A and index B, return the Bth indexed symbol in row A. (The values of B are 0-indexed.).
 
 Problem Constraints
-1 <= A <= 20
-0 <= B < 2A - 1
+1 <= A <= 105
+0 <= B <= min(2A - 1 - 1 , 1018)
 
 Input Format
 First argument is an integer A.
@@ -54,7 +54,7 @@ approach:
 If we look at the pattern, element at ith index and element at i/2th index are same when i is even,
 while they are changing when the i is odd
 */
-func GetKthSymbol(A int, B int) int {
+func GetKthSymbolII(A int, B int) int {
 	if B == 0 {
 		return 0
 	}
@@ -62,31 +62,7 @@ func GetKthSymbol(A int, B int) int {
 		return 0
 	}
 	if B&1 == 0 {
-		return GetKthSymbol(A-1, B/2)
+		return GetKthSymbolII(A-1, B/2)
 	}
-	return 1 ^ GetKthSymbol(A-1, B/2)
-}
-
-//May give MLE error for bigger values
-func GetKthSymbolAlt(A int, B int) int {
-	arr := binaryArray(A, nil)
-	return arr[B]
-}
-
-func binaryArray(A int, arr []int) []int {
-	if A == 0 {
-		return arr
-	}
-	if len(arr) == 0 {
-		return binaryArray(A-1, make([]int, 1))
-	}
-	var newArr []int
-	for i := range arr {
-		if arr[i] == 0 {
-			newArr = append(newArr, []int{0, 1}...)
-		} else {
-			newArr = append(newArr, []int{1, 0}...)
-		}
-	}
-	return binaryArray(A-1, newArr)
+	return 1 ^ GetKthSymbolII(A-1, B/2)
 }
