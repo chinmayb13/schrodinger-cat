@@ -15,20 +15,3 @@ func CanJump(nums []int) bool {
 	}
 	return false
 }
-
-func isFeasible(idx int, nums []int) bool {
-	if idx == len(nums)-1 {
-		return true
-	}
-	if idx >= len(nums) {
-		return false
-	}
-
-	for i := nums[idx]; i >= 1; i++ {
-		check := isFeasible(idx+i, nums)
-		if check {
-			return true
-		}
-	}
-	return false
-}
