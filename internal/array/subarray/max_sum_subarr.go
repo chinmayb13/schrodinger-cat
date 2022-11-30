@@ -71,3 +71,21 @@ func GetMaxSubarray(A int, B int, C []int) int {
 //TODO:
 //Kadane's Algorithm
 //local_maximum at index i is the maximum of A[i] and the sum of A[i] and local_maximum at index i-1.
+
+//Two Pointer Approach
+func GetMaxSubarrayAlt(A int, B int, C []int) int {
+	left := 0
+	maxSum, sum := 0, 0
+	for i := range C {
+		sum += C[i]
+		//until the sum comes within the range, start shortening the subarray from left
+		for sum > B && left < A {
+			sum -= C[left]
+			left++
+		}
+		if sum > maxSum {
+			maxSum = sum
+		}
+	}
+	return maxSum
+}

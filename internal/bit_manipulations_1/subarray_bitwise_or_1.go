@@ -58,3 +58,15 @@ func GetBiwtiseOr1(A int, B []int) int64 {
 	}
 	return int64(A*(A+1)/2) - zeroSA
 }
+
+func GetBiwtiseOr1Alt(A int, B []int) int64 {
+	totalSubArrays := 0
+	localSubarrayCount := 0
+	for i := range B {
+		if B[i] == 1 {
+			localSubarrayCount = i + 1
+		}
+		totalSubArrays += localSubarrayCount
+	}
+	return int64(totalSubArrays)
+}

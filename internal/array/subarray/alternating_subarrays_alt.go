@@ -1,5 +1,39 @@
 package subarray
 
+//Two Pointer Approach:
+func GetAlternateSubArrCentreIdxListAltII(A []int, B int) []int {
+	if B == 0 {
+		return getAllIndexes(len(A))
+	}
+	var indexArr []int
+	subArrLength := 2*B + 1
+	l, r := 0, 0
+	for i := 1; i < len(A); i++ {
+		//if alternating sequence, keep increasing right pointer
+		if A[i] != A[i-1] {
+			r++
+			length := r - l + 1
+			//if subarray is of needed length, store the centre and increment the left pointer
+			if length == subArrLength {
+				indexArr = append(indexArr, (l+r)/2)
+				l++
+			}
+			//else start a fresh subarray, by resetting left and right ptr to current index
+		} else {
+			l, r = i, i
+		}
+	}
+	return indexArr
+}
+
+func getAllIndexes(n int) []int {
+	var arr []int
+	for i := 0; i < n; i++ {
+		arr = append(arr, i)
+	}
+	return arr
+}
+
 func GetAlternateSubArrCentreIdxListAlt(A []int, B int) []int {
 	var idxList []int
 	subArraySize := 2*B + 1
