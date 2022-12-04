@@ -56,14 +56,24 @@ A[2][2] = 3
 The minimum value is 2019
 */
 func IsPresent(A [][]int, B int) int {
+	defaultValue := getCoordinateValue(len(A), len(A[0]))
+	minValue := defaultValue
 	for i, j := 0, len(A[0])-1; i < len(A) && j >= 0; {
-		if A[i][j] == B {
-			return ((i + 1) * 1009) + j + 1
+		if (A[i][j] == B) && (getCoordinateValue(i, j) < minValue) {
+			minValue = getCoordinateValue(i, j)
+			j--
 		} else if B > A[i][j] {
 			i++
 		} else {
 			j--
 		}
 	}
+	if minValue != defaultValue {
+		return minValue
+	}
 	return -1
+}
+
+func getCoordinateValue(r, c int) int {
+	return ((r + 1) * 1009) + c + 1
 }

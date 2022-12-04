@@ -65,6 +65,30 @@ For query 2: Submatrix contains elements: 11 and 8. So, their sum is 19.
 */
 func GetMatrixQuerySum(A [][]int, B []int, C []int, D []int, E []int) []int {
 	var matrixSum []int
+	var mod int = 1e9 + 7
+	buildMatrixPrefixSum(A)
+	for i := range B {
+		sum := A[D[i]-1][E[i]-1]
+		if B[i]+C[i] > 2 {
+			if B[i] == 1 {
+				sum -= A[D[i]-1][C[i]-2]
+			} else if C[i] == 1 {
+				sum -= A[B[i]-2][E[i]-1]
+			} else {
+				sum = sum - A[D[i]-1][C[i]-2] - A[B[i]-2][E[i]-1] + A[B[i]-2][C[i]-2]
+			}
+		}
+
+		for sum < 0 {
+			sum = sum + mod
+		}
+		sum = sum % mod
+		matrixSum = append(matrixSum, sum)
+	}
+	return matrixSum
+}
+
+func buildMatrixPrefixSum(A [][]int) {
 	for i := range A {
 		for j := range A[i] {
 			if i+j > 0 {
@@ -79,19 +103,4 @@ func GetMatrixQuerySum(A [][]int, B []int, C []int, D []int, E []int) []int {
 			}
 		}
 	}
-
-	for i := range B {
-		sum := A[D[i]-1][E[i]-1]
-		if B[i]+C[i] > 2 {
-			if B[i] == 1 {
-				sum -= A[D[i]-1][C[i]-2]
-			} else if C[i] == 1 {
-				sum -= A[B[i]-2][E[i]-1]
-			} else {
-				sum = sum - A[D[i]-1][C[i]-2] - A[B[i]-2][E[i]-1] + A[B[i]-2][C[i]-2]
-			}
-		}
-		matrixSum = append(matrixSum, sum)
-	}
-	return matrixSum
 }
