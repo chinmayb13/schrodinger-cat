@@ -40,7 +40,7 @@ So, we return 5.
 Explanation 2:
 Only possibility is i = 1 and j = 1. That gives answer = 0.
 */
-func GetMaxArr(A []int) int {
+func GetMaxAbsoulteDiff(A []int) int {
 	var xMax int = -(1e9 + 1)
 	var xMin int = (1e9 + 1)
 	var yMax int = -(1e9 + 1)
