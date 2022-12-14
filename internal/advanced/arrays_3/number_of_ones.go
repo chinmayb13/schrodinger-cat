@@ -50,7 +50,7 @@ Now divisor=100
 quotient = N/divisor = (3195/100) = 31
 digit = (N%divisor) / (divisor/10) = (3195%100) / (100/10) = 9
 
-If we identify the pattern 010-019, 110-119, 210-219.......3010-3019, each set has 10 1s and there are 31 such sets, 
+If we identify the pattern 010-019, 110-119, 210-219.......3010-3019, each set has 10 1s and there are 31 such sets,
 so total 1s at tens place is 31*10=310
 If the given number had been 3105, this would have been our count for tens place.
 But since, N is 3195 and the digit 9>1, total ones at unit place would be 310+10=320
@@ -59,7 +59,7 @@ Now divisor=1000
 quotient = N/divisor = (3195/1000) = 3
 digit = (N%divisor) / (divisor/10) = (3195%1000) / (1000/10) = 1
 
-If we identify the pattern 0100-0199, 1100-1199, 2100-2199, each set has 100 1s and there are 3 such sets, 
+If we identify the pattern 0100-0199, 1100-1199, 2100-2199, each set has 100 1s and there are 3 such sets,
 so total 1s at hundreds place is 3*100=300
 If the given number had been 3095, this would have been our count for hundreds place.
 Now the digit here is 1, so we cant add another 100 like we did in previous cases.
