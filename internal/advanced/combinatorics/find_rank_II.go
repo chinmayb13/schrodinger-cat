@@ -51,7 +51,80 @@ The order permutations with letters 'a', 'b', and 'c' :
    cba
 So, the rank is 4.
 */
+
 func FindRankII(A string) int {
+	ans := 0
+	mod := 1000003
+	/*get frequency array of size 52 (a-z A-Z)
+
+	  divisor contains the product of factorial of the frequency of all elements
+	  for a string: bbbaaacccc, divisor will contain 3!*3!*4!*/
+	freqArray, divisor := getFreqArray(A)
+	//get factorial array
+	factArray := getFactorialArray(len(A) + 1)
+	for i := range A {
+		idx := getIdx(A[i])
+		numerator := len(A) - 1 - i
+		for j := 0; j < idx; j++ {
+			/*if there exists a lexicographical smaller element than the current ith element
+			  place that smaller element in the current position and count the permutation
+			  permutatation = factorial of length of remaining string after putting jth element in current postion /
+			                  (divisor/factorial of frequency of jth element)*(factorial of one less than the frequency of jth element)
+
+			*/
+			if freqArray[j] > 0 {
+				localDivisor := (((divisor * inverse(factArray[freqArray[j]])) % mod) * factArray[freqArray[j]-1]) % mod
+				ans = (ans + (factArray[numerator]*inverse(localDivisor))%mod) % mod
+			}
+		}
+		/*
+			since we have covered the current element's position, we will decrease the frequency of current element by 1
+			and update the divisor as
+			(divisor/factorial of frequency of ith element)*(factorial of one less than the frequency of ith element)
+		*/
+		divisor = (((divisor * inverse(factArray[freqArray[idx]])) % mod) * factArray[freqArray[idx]-1]) % mod
+		freqArray[idx]--
+	}
+	return ans + 1
+}
+
+func getFreqArray(inp string) ([]int, int) {
+	freqArray := make([]int, 52)
+	divisor := 1
+	mod := 1000003
+
+	for i := range inp {
+		idx := getIdx(inp[i])
+		freqArray[idx]++
+		divisor = (divisor * freqArray[idx]) % mod
+	}
+	return freqArray, divisor
+}
+
+func getFactorialArray(len int) []int {
+	mod := 1000003
+	factArray := make([]int, len)
+	factArray[0] = 1
+	for i := 1; i < len; i++ {
+		factArray[i] = (i * factArray[i-1]) % mod
+	}
+	return factArray
+}
+
+func inverse(inp int) int {
+	mod := 1000003
+	return calcPower(int64(inp), mod-2, mod)
+}
+
+func getIdx(inp byte) int {
+	if inp >= 'a' {
+		return int(inp) - int('a') + 26
+	}
+	return int(inp) - int('A')
+
+}
+
+func FindRankIIAlt(A string) int {
 	mod := 1000003
 	ans := 0
 	for i := 0; i < len(A)-1; i++ {
