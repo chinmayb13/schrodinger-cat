@@ -41,15 +41,15 @@ When A = 11 , square root of A = 3.316. It is not a perfect square so we return 
 When A = 9 which is a perfect square of 3, so we return 3.
 */
 func FloorSqrt(A int) int {
-	low, high, ans := 1, A, 0
+	var low, high, ans int64 = 1, int64(A), 0
 	for low <= high {
 		mid := low + (high-low)/2
-		if (mid * mid) <= A {
+		if (mid * mid) <= int64(A) {
 			ans = mid
 			low = mid + 1
 		} else {
 			high = mid - 1
 		}
 	}
-	return ans
+	return int(ans)
 }
