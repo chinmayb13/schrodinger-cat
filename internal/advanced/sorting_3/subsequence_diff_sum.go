@@ -53,9 +53,24 @@ func GetSubsequenceDiffSum(A []int) int {
 	var totMax, totMin int
 	for i := range A {
 		//the current element will be maximum for subsequences 2^(no of elements before the current element in the sorted array)
-		totMax = (totMax + (A[i]*(1<<i))%mod) % mod
+		totMax = (totMax + (A[i]*calcPower(2, i))%mod) % mod
 		//the current element will be minimum for subsequences 2^(no of elements after the current element in the sorted array)
-		totMin = (totMin + (A[i]*(1<<(lastIdx-i)))%mod) % mod
+		totMin = (totMin + (A[i]*calcPower(2, lastIdx-i))%mod) % mod
 	}
 	return (totMax - totMin + mod) % mod
+}
+
+func calcPower(inp, pow int) int {
+	var mod int = 1e9 + 7
+	ans := 1
+	for pow > 0 {
+		if (pow & 1) > 0 {
+			ans = (ans * inp) % mod
+			pow--
+		} else {
+			inp = (inp * inp) % mod
+			pow = pow >> 1
+		}
+	}
+	return ans
 }
