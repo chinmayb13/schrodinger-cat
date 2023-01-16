@@ -37,6 +37,22 @@ Explanation 2:
 The stairs formed will have height 1, 2, 3, 4, 5.
 */
 func GetMaxHeight(A int) int {
+	var ans int64
+	var low int64 = 0
+	var high int64 = int64(A)
+	for low <= high {
+		mid := low + (high-low)>>1
+		if ((mid * (mid + 1)) >> 1) <= int64(A) {
+			ans = mid
+			low = mid + 1
+		} else {
+			high = mid - 1
+		}
+	}
+	return int(ans)
+}
+
+func GetMaxHeightAlt(A int) int {
 	height := 0
 	for i := 0; A > 0; i++ {
 		A -= (i + 1)
