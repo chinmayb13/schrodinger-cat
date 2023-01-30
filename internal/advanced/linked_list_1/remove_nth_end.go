@@ -46,7 +46,7 @@ func RemoveNthFromEnd(A *listNode, B int) *listNode {
 	head := A
 	size := getSize(A)
 	//remove from beginning
-	if B > size {
+	if B >= size {
 		temp = head
 		head = head.next
 		temp.next = nil
