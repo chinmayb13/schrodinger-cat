@@ -13,3 +13,10 @@ func Min(x, y int) int {
 	}
 	return y
 }
+
+func Abs(inp int) int {
+	if inp < 0 {
+		return inp * -1
+	}
+	return inp
+}
