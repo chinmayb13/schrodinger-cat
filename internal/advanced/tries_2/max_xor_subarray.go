@@ -53,7 +53,7 @@ func GetMaxXorSubarray(A []int) []int {
 	xor, maxXor := 0, 0
 	//initialize beg and end with array first and last index
 	beg, end := 0, len(A)-1
-	//insert 0 at the beginning, since the max xor could be the first subarrayssss itself
+	//insert 0 at the beginning, since the max xor could be the first subarray itself
 	root.insert(bits, 0, -1)
 	for i := 0; i < len(A); i++ {
 		xor ^= A[i]

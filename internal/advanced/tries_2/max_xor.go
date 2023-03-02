@@ -1,9 +1,5 @@
 package tries2
 
-import (
-	"math"
-)
-
 /*
 Problem Description
 Given an array of integers A, find and return the maximum result of A[i] XOR A[j], where i, j are the indexes of the array.
@@ -106,17 +102,4 @@ func max(args ...int) int {
 		}
 	}
 	return ans
-}
-
-func getBits(inp []int) int {
-	max := -1
-	for i := range inp {
-		if inp[i] > max {
-			max = inp[i]
-		}
-	}
-	if max == 0 {
-		return 0
-	}
-	return int(math.Floor(math.Log2(float64(max)) + 1))
 }
