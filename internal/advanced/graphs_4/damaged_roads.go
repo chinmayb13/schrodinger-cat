@@ -85,21 +85,27 @@ func GetMinRepairCost(A []int, B []int) int {
 	ans := 0
 	var items []item
 
+	//add row costs
 	for i := range A {
 		items = append(items, item{val: A[i], id: 1})
 	}
 
+	//add columns costs
 	for i := range B {
 		items = append(items, item{val: B[i], id: 0})
 	}
+
+	//sort the costs
 	sort.Slice(items, func(i, j int) bool {
 		return items[i].val < items[j].val
 	})
 
 	for i := range items {
+		//if row cost, multiply with remaining columns
 		if items[i].id == 1 {
 			ans = (ans + (items[i].val*M)%mod) % mod
 			N--
+		//else column cost, multiply with remaining rows
 		} else {
 			ans = (ans + (items[i].val*N)%mod) % mod
 			M--
