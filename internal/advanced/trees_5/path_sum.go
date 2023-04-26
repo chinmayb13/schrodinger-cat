@@ -17,24 +17,26 @@ Return 1, if there exist root-to-leaf path such that adding up all the values al
 
 Example Input
 Input 1:
- Tree:    5
-         / \
-        4   8
-       /   / \
-      11  13  4
-     /  \      \
-    7    2      1
 
- B = 22
+	Tree:    5
+	        / \
+	       4   8
+	      /   / \
+	     11  13  4
+	    /  \      \
+	   7    2      1
+
+	B = 22
 
 Input 2:
- Tree:    5
-         / \
-        4   8
-       /   / \
-     -11 -13  4
 
- B = -1
+	Tree:    5
+	        / \
+	       4   8
+	      /   / \
+	    -11 -13  4
+
+	B = -1
 
 Example Output
 Output 1:

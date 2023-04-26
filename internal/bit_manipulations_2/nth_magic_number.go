@@ -40,7 +40,7 @@ Explanation 2:
 In the sequence shown in explanation 1, 10th element will be 650.
 */
 
-//approach: check everybit for every set bit multiply it with power(5, bit's position)
+// approach: check everybit for every set bit multiply it with power(5, bit's position)
 func GetMagicNumber(A int) int {
 	magicNum := 0
 	num := 5

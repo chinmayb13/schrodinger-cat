@@ -16,36 +16,40 @@ Make changes to the the input only as matrix is passed by reference.
 Example Input
 Input 1:
 A = [
-      [X, X, X, X],
-      [X, O, O, X],
-      [X, X, O, X],
-      [X, O, X, X]
-    ]
+
+	  [X, X, X, X],
+	  [X, O, O, X],
+	  [X, X, O, X],
+	  [X, O, X, X]
+	]
 
 Input 2:
 A = [
-      [X, O, O],
-      [X, O, X],
-      [O, O, O]
-    ]
+
+	  [X, O, O],
+	  [X, O, X],
+	  [O, O, O]
+	]
 
 Example Output
 Output 1:
 After running your function, the board should be:
 A = [
-      [X, X, X, X],
-      [X, X, X, X],
-      [X, X, X, X],
-      [X, O, X, X]
-    ]
+
+	  [X, X, X, X],
+	  [X, X, X, X],
+	  [X, X, X, X],
+	  [X, O, X, X]
+	]
 
 Output 2:
 After running your function, the board should be:
 A = [
-      [X, O, O],
-      [X, O, X],
-      [O, O, O]
-    ]
+
+	  [X, O, O],
+	  [X, O, X],
+	  [O, O, O]
+	]
 
 Example Explanation
 Explanation 1:

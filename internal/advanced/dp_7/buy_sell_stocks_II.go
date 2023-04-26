@@ -25,12 +25,13 @@ Output 1:
 2
 
 Explanation 1:
- => Buy a stock on day 0.
- => Sell the stock on day 1. (Profit +1)
- => Buy a stock on day 1.
- => Sell the stock on day 2. (Profit +1)
 
- Overall profit = 2
+	=> Buy a stock on day 0.
+	=> Sell the stock on day 1. (Profit +1)
+	=> Buy a stock on day 1.
+	=> Sell the stock on day 2. (Profit +1)
+
+	Overall profit = 2
 
 Input 2:
 A = [5, 2, 10]

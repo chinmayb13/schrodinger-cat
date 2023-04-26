@@ -19,39 +19,43 @@ Delete the given node if found and return the root of the BST.
 
 Example Input
 Input 1:
-            15
-          /    \
-        12      20
-        / \    /  \
-       10  14  16  27
-      /
-     8
 
-     B = 10
+	       15
+	     /    \
+	   12      20
+	   / \    /  \
+	  10  14  16  27
+	 /
+	8
+
+	B = 10
 
 Input 2:
-            8
-           / \
-          6  21
-         / \
-        1   7
 
-     B = 6
+	       8
+	      / \
+	     6  21
+	    / \
+	   1   7
+
+	B = 6
 
 Example Output
 Output 1:
-            15
-          /    \
-        12      20
-        / \    /  \
-       8  14  16  27
+
+	     15
+	   /    \
+	 12      20
+	 / \    /  \
+	8  14  16  27
 
 Output 2:
-            8
-           / \
-          1  21
-           \
-            7
+
+	  8
+	 / \
+	1  21
+	 \
+	  7
 
 Example Explanation
 Explanation 1:

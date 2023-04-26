@@ -9,22 +9,14 @@ The uppercase letters from A to Z are converted to lowercase letters from a to z
 
 Return the lowercase version of the given character array.
 
-
-
 Problem Constraints
 1 <= |A| <= 105
-
-
 
 Input Format
 The only argument is a character array A.
 
-
-
 Output Format
 Return the lowercase version of the given character array.
-
-
 
 Example Input
 Input 1:

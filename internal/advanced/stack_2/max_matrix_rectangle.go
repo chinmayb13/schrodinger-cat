@@ -17,17 +17,23 @@ Constraints
 
 For Example
 Input 1:
-    A = [   [0, 0, 1]
-            [0, 1, 1]
-            [1, 1, 1]   ]
+
+	A = [   [0, 0, 1]
+	        [0, 1, 1]
+	        [1, 1, 1]   ]
+
 Output 1:
-    4
+
+	4
 
 Input 2:
-    A = [   [0, 1, 0, 1]
-            [1, 0, 1, 0]    ]
+
+	A = [   [0, 1, 0, 1]
+	        [1, 0, 1, 0]    ]
+
 Output 2:
-    1
+
+	1
 */
 func GetMaxRectangleArea(A [][]int) int {
 	var ans int

@@ -18,16 +18,18 @@ Return an integer representing the maximum sum path.
 
 Example Input
 Input 1:
-    1
-   / \
-  2   3
+
+	  1
+	 / \
+	2   3
 
 Input 2:
-       20
-      /  \
-   -10   20
-        /  \
-      -10  -50
+
+	    20
+	   /  \
+	-10   20
+	     /  \
+	   -10  -50
 
 Example Output
 Output 1:

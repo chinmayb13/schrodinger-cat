@@ -17,20 +17,22 @@ Return an integer denoting the difference between the sum of nodes at odd level 
 
 Example Input
 Input 1:
-        1
-      /   \
-     2     3
-    / \   / \
-   4   5 6   7
-  /
- 8
+
+	       1
+	     /   \
+	    2     3
+	   / \   / \
+	  4   5 6   7
+	 /
+	8
 
 Input 2:
-        1
-       / \
-      2   10
-       \
-        4
+
+	  1
+	 / \
+	2   10
+	 \
+	  4
 
 Example Output
 Output 1:

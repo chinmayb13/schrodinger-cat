@@ -30,7 +30,6 @@ Output 1:
 Output 2:
 [1, 2, 3, 4, 5, 6]
 
-
 Example Explanation
 Explanation 1:
 There are two subarrays of size 2 having only non-negative elements.

@@ -12,8 +12,6 @@ NOTE: If there is no such pair return -1
 Problem Constraints
 1 <= |A| <= 105
 
-
-
 Input Format
 First and only argument is a string A.
 
@@ -27,7 +25,6 @@ A = "x...o.x...o"
 Input 2:
 A = "xxx...xxx"
 
-
 Example Output
 Output 1:
 2
@@ -35,8 +32,7 @@ Output 1:
 Output 2:
 -1
 
-
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 
@@ -44,7 +40,6 @@ Minimum distance is between 'o' at index 5 and 'x' at index 7 i.e |7 - 5| = 2
 Explanation 2:
 
 There is no such pair, return -1.
-
 */
 func GetMinDistance(A string) int {
 	nonDotIndex := -1

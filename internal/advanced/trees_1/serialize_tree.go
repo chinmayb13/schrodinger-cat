@@ -21,19 +21,20 @@ Return an integer array denoting the Level Order Traversal of the given Binary T
 
 Example Input
 Input 1:
-           1
-         /   \
-        2     3
-       / \
-      4   5
+
+	     1
+	   /   \
+	  2     3
+	 / \
+	4   5
 
 Input 2:
 
-            1
-          /   \
-         2     3
-        / \     \
-       4   5     6
+	     1
+	   /   \
+	  2     3
+	 / \     \
+	4   5     6
 
 Example Output
 Output 1:

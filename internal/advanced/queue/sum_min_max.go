@@ -37,17 +37,19 @@ Output 2:
 Example Explanation
 Explanation 1:
 Subarrays of size 4 are :
-   [2, 5, -1, 7],   min + max = -1 + 7 = 6
-   [5, -1, 7, -3],  min + max = -3 + 7 = 4
-   [-1, 7, -3, -1], min + max = -3 + 7 = 4
-   [7, -3, -1, -2], min + max = -3 + 7 = 4
-   Sum of all min & max = 6 + 4 + 4 + 4 = 18
+
+	[2, 5, -1, 7],   min + max = -1 + 7 = 6
+	[5, -1, 7, -3],  min + max = -3 + 7 = 4
+	[-1, 7, -3, -1], min + max = -3 + 7 = 4
+	[7, -3, -1, -2], min + max = -3 + 7 = 4
+	Sum of all min & max = 6 + 4 + 4 + 4 = 18
 
 Explanation 2:
 Subarrays of size 2 are :
-   [2, -1],   min + max = -1 + 2 = 1
-   [-1, 3],   min + max = -1 + 3 = 2
-   Sum of all min & max = 1 + 2 = 3
+
+	[2, -1],   min + max = -1 + 2 = 1
+	[-1, 3],   min + max = -1 + 3 = 2
+	Sum of all min & max = 1 + 2 = 3
 */
 func GetMinMaxSum(A []int, B int) int {
 	var mod int = 1e9 + 7
@@ -57,7 +59,7 @@ func GetMinMaxSum(A []int, B int) int {
 
 }
 
-//getMaxElementSum calculates sum of all maxs in all subarrays of window size
+// getMaxElementSum calculates sum of all maxs in all subarrays of window size
 func getMaxElementSum(inp []int, window int) int {
 	var mod int = 1e9 + 7
 	var ans int
@@ -87,7 +89,7 @@ func getMaxElementSum(inp []int, window int) int {
 	return ans
 }
 
-//getMinElementSum calculates sum of all mins in all subarrays of window size
+// getMinElementSum calculates sum of all mins in all subarrays of window size
 func getMinElementSum(inp []int, window int) int {
 	var mod int = 1e9 + 7
 	var ans int

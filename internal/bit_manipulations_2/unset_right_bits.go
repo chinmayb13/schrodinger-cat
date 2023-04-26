@@ -20,7 +20,6 @@ The second argument is a single integer B.
 Output Format
 Return the number with B unset bits from the right.
 
-
 Example Input
 Input 1:-
 A = 25
@@ -29,7 +28,6 @@ B = 3
 Input 2:-
 A = 37
 B = 3
-
 
 Example Output
 Output 1:-

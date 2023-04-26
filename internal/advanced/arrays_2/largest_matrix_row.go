@@ -25,14 +25,15 @@ Return the row with the maximum number of 1.
 
 Example Input
 Input 1:
- A = [   [0, 1, 1]
-         [0, 0, 1]
-         [0, 1, 1]   ]
+
+	A = [   [0, 1, 1]
+	        [0, 0, 1]
+	        [0, 1, 1]   ]
 
 Input 2:
- A = [   [0, 0, 0, 0]
-         [0, 1, 1, 1]    ]
 
+	A = [   [0, 0, 0, 0]
+	        [0, 1, 1, 1]    ]
 
 Example Output
 Output 1:

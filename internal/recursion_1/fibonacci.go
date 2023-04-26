@@ -13,10 +13,8 @@ Fn = Fn-1 + Fn-2
 Given a number A, find and return the Ath Fibonacci Number.
 Given that F0 = 0 and F1 = 1.
 
-
 Problem Constraints
 0 <= A <= 20
-
 
 Input Format
 First and only argument is an integer A.

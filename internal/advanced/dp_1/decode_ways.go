@@ -42,7 +42,6 @@ The number of ways decoding "12" is 2.
 Explanation 2:
 Given encoded message "8", it could be decoded as only "H" (8).
 The number of ways decoding "8" is 1.
-
 */
 func NumDecodings(A string) int {
 	memo := make([]int, len(A))

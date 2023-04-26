@@ -29,12 +29,14 @@ A = [1, 2]
 Example Output
 Output 1:
 [ [1,1,2]
-  [1,2,1]
-  [2,1,1] ]
+
+	[1,2,1]
+	[2,1,1] ]
 
 Output 2:
 [ [1, 2]
-  [2, 1] ]
+
+	[2, 1] ]
 
 Example Explanation
 Explanation 1:

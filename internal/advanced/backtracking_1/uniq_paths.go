@@ -24,12 +24,14 @@ Return the number of 4-directional walks from the starting square to the ending 
 Example Input
 Input 1:
 A = [   [1, 0, 0, 0]
-        [0, 0, 0, 0]
-        [0, 0, 2, -1]   ]
+
+	[0, 0, 0, 0]
+	[0, 0, 2, -1]   ]
 
 Input 2:
 A = [   [0, 1]
-        [2, 0]    ]
+
+	[2, 0]    ]
 
 Example Output
 Output 1:

@@ -19,29 +19,33 @@ Return the head of the binary tree after the changes are made.
 
 Example Input
 Input 1:
-     1
-    /  \
-   2    3
+
+	  1
+	 /  \
+	2    3
 
 Input 2:
-        1
-       /  \
-      2    5
-     / \  / \
-    3  4  6  7
+
+	    1
+	   /  \
+	  2    5
+	 / \  / \
+	3  4  6  7
 
 Example Output
 Output 1:
-        1 -> NULL
-       /  \
-      2 -> 3 -> NULL
+
+	  1 -> NULL
+	 /  \
+	2 -> 3 -> NULL
 
 Output 2:
-         1 -> NULL
-       /  \
-      2 -> 5 -> NULL
-     / \  / \
-    3->4->6->7 -> NULL
+
+	     1 -> NULL
+	   /  \
+	  2 -> 5 -> NULL
+	 / \  / \
+	3->4->6->7 -> NULL
 
 Example Explanation
 Explanation 1:

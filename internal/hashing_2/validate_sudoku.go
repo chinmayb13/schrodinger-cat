@@ -15,8 +15,8 @@ A valid Sudoku board (partially filled) is not necessarily solvable. Only the fi
 Return 0 / 1 ( 0 for false, 1 for true ) for this problem
 */
 
-//Approach: Idea is to create map for each row (9 rows in total), each column(9 columns in total), each cube(9 cubes in total)
-//and validate if the element present in any of these is being repeated
+// Approach: Idea is to create map for each row (9 rows in total), each column(9 columns in total), each cube(9 cubes in total)
+// and validate if the element present in any of these is being repeated
 func IsValidSudoku(A []string) int {
 	rowSet := make([]map[byte]struct{}, 9)
 	for i := range rowSet {

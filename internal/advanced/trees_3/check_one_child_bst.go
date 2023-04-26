@@ -23,7 +23,7 @@ A : [4, 10, 5, 8]
 Input 2:
 A : [1, 5, 6, 4]
 
-Example Output
+# Example Output
 
 Output 1:
 "YES"
@@ -31,17 +31,18 @@ Output 1:
 Output 2:
 "NO"
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 The possible BST is:
-            4
-             \
-             10
-             /
-             5
-              \
-              8
+
+	4
+	 \
+	 10
+	 /
+	 5
+	  \
+	  8
 
 Explanation 2:
 There is no possible BST which have the above preorder traversal.

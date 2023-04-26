@@ -26,16 +26,18 @@ B = [6, 3, 2, 1]
 
 Example Output
 Output 1:
-   1
-  / \
- 2   3
+
+	  1
+	 / \
+	2   3
 
 Output 2:
-   1
-  / \
- 6   2
-    /
-   3
+
+	  1
+	 / \
+	6   2
+	   /
+	  3
 
 Example Explanation
 Explanation 1:

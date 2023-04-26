@@ -40,7 +40,7 @@ Explanation 2:
 "none" should be present after "no". Return 0.
 */
 
-//Approach: Take two strings at a time and compare them character by character
+// Approach: Take two strings at a time and compare them character by character
 func IsDictionary(A []string, B string) int {
 	hashMap := make(map[byte]int)
 	//create priority deciding map for characters as given in the input

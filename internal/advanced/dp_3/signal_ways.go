@@ -9,11 +9,11 @@ Find and return the total number of ways in which you can send a signal without 
 Problem Constraints
 1 <= A <= 105
 
-Input Format
+# Input Format
 
 The only argument given is integer A.
 
-Output Format
+# Output Format
 
 Return the ans%(109+7).
 

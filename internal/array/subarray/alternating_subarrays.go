@@ -70,7 +70,7 @@ func GetAlternateSubArrCentreIdxList(A []int, B int) []int {
 	return centreIdxArr
 }
 
-//check if the array is a palindrome with alternating sequence
+// check if the array is a palindrome with alternating sequence
 func isPalindrome(input []int) bool {
 	for i, j := 0, len(input)-1; i <= j; i, j = i+1, j-1 {
 		if input[i] != input[j] {

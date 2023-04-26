@@ -48,7 +48,8 @@ Explanation 2:
 The value of 6C2 % 13 is 2.
 */
 
-/*approach: Create Pascal Triangle
+/*
+approach: Create Pascal Triangle
 -- -- -- -- -- 01 -- -- -- -- --
 -- -- -- 01 -- 02 -- 01 -- -- --
 -- -- 01 -- 03 -- 03 -- 01 -- --

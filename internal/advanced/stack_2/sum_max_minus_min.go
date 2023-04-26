@@ -64,7 +64,7 @@ func GetSumMaxMinusMin(A []int) int {
 	return ans
 }
 
-//get nearest smaller element from left
+// get nearest smaller element from left
 func getNSL(inp []int) []int {
 	nsl := make([]int, len(inp))
 	candidateList := newStack()
@@ -82,7 +82,7 @@ func getNSL(inp []int) []int {
 	return nsl
 }
 
-//get nearest smaller element from right
+// get nearest smaller element from right
 func getNSR(inp []int) []int {
 	nsr := make([]int, len(inp))
 	candidateList := newStack()
@@ -100,7 +100,7 @@ func getNSR(inp []int) []int {
 	return nsr
 }
 
-//get nearest greater element from left
+// get nearest greater element from left
 func getNGL(inp []int) []int {
 	ngl := make([]int, len(inp))
 	candidateList := newStack()
@@ -118,7 +118,7 @@ func getNGL(inp []int) []int {
 	return ngl
 }
 
-//get nearest greater element from right
+// get nearest greater element from right
 func getNGR(inp []int) []int {
 	ngr := make([]int, len(inp))
 	candidateList := newStack()

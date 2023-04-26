@@ -9,7 +9,6 @@ NOTE:
 Coins in set A will be unique. Expected space complexity of this problem is O(B).
 The answer can overflow. So, return the answer % (106 + 7).
 
-
 Problem Constraints
 1 <= A <= 500
 1 <= A[i] <= 1000

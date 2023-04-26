@@ -41,7 +41,7 @@ Explanation 2:
 2nd element after sorting is 2.
 */
 
-//Approach: Use selection sort algorithm to pick Bth smallest element
+// Approach: Use selection sort algorithm to pick Bth smallest element
 func Kthsmallest(A []int, B int) int {
 	for i := 0; i < len(A)-1; i++ {
 		idx := i

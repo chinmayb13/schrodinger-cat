@@ -44,7 +44,8 @@ Explanation 2:
 There is no possible way to make it 0.
 */
 
-/*SOLUTION
+/*
+SOLUTION
 If any element in array is even then it can be made 0. Split that element in two equal parts of  Ai/2 and Ai/2. XOR of two equal numbers is zero. Therefore this strategy makes an element 0.
 
 If  any element is odd. Split it in two part: 1, Ai-1. Since Ai-1 is even, it can be made 0 by above strategy. Therefore an odd element can reduce its size to 1.

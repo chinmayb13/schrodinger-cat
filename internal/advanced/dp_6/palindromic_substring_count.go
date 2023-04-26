@@ -9,8 +9,7 @@ Return the count of palindromic substrings.
 
 Note: A string is palindrome if it reads the same from backward and forward.
 
-
-Input Format
+# Input Format
 
 The only argument given is string A.
 Output Format
@@ -22,20 +21,30 @@ Constraints
 For Example
 
 Input 1:
-    A = "abab"
+
+	A = "abab"
+
 Output 1:
-    6
+
+	6
+
 Explanation 1:
-    6 palindromic substrings are:
-    "a", "aba", "b", "bab", "a" and "b".
+
+	6 palindromic substrings are:
+	"a", "aba", "b", "bab", "a" and "b".
 
 Input 2:
-    A = "ababa"
+
+	A = "ababa"
+
 Output 2:
-    9
+
+	9
+
 Explanation 9:
-    9 palindromic substrings are:
-    "a", "a", "a", "b", "b" , "aba" ,"bab", "aba" and "ababa".
+
+	9 palindromic substrings are:
+	"a", "a", "a", "b", "b" , "aba" ,"bab", "aba" and "ababa".
 */
 func GetPalindromeCount(A string) int {
 	inp := A

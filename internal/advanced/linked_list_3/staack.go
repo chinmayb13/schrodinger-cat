@@ -18,44 +18,45 @@ If the stack is empty return -1 for operations of type-2 and type-3.
 If the stack size is even then the second middle element will be considered as middle element for the operations to perform.
 Try to implement each operation in O(1) time complexity.
 
-Problem Constraints
+# Problem Constraints
 
 1 <= Q <= 105
 1 <= x <= 103
 
-Input Format
+# Input Format
 
 First and only argument A is and 2-D array of size Q x 2 denoting the operations.
 
-Output Format
+# Output Format
 
 Return a 1-D array consisting the output of operations of type-2 and type-3. The order must be same as in input.
 
-Example Input
+# Example Input
 
 Input 1:
 A = [
-       [1, 3]
-       [3, 0]
-       [4, 0]
-       [2 ,0]
-       [1, 5]
-       [1, 9]
-       [3, 0]
-    ]
+
+	   [1, 3]
+	   [3, 0]
+	   [4, 0]
+	   [2 ,0]
+	   [1, 5]
+	   [1, 9]
+	   [3, 0]
+	]
 
 Input 2:
 
 A = [
-       [1, 1]
-       [1, 2]
-       [1, 3]
-       [3, 0]
-       [4, 0]
-       [3, 0]
-       [4, 0]
-    ]
 
+	   [1, 1]
+	   [1, 2]
+	   [1, 3]
+	   [3, 0]
+	   [4, 0]
+	   [3, 0]
+	   [4, 0]
+	]
 
 Example Output
 Output 1:
@@ -64,7 +65,7 @@ Output 1:
 Output 2:
 [2, 3]
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 Initial stack S = [ ]

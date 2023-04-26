@@ -15,7 +15,7 @@ The second argument is a single integer B.
 Output Format
 Return the minimum value (A ⊕ X) + (B ⊕ X) that can be achieved for any X.
 
-Example Input
+# Example Input
 
 Input 1:-
 A = 6
@@ -25,7 +25,7 @@ Input 2:-
 A = 4
 B = 9
 
-Example Output
+# Example Output
 
 Output 1:-
 10
@@ -33,7 +33,7 @@ Output 1:-
 output 2:-
 13
 
-Example Explanation
+# Example Explanation
 
 Expanation 1:-
 X ^ A + X ^ B = 10 when X = 8

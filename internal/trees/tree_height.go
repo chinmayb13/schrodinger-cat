@@ -18,16 +18,17 @@ Return an integer denoting the height of the tree.
 Example Input
 Input 1:
 Values =  1
-          / \
-         4   3
+
+	 / \
+	4   3
 
 Input 2:
 Values =  1
-          / \
-         4   3
-        /
-       2
 
+	   / \
+	  4   3
+	 /
+	2
 
 Example Output
 Output 1:
@@ -35,7 +36,6 @@ Output 1:
 
 Output 2:
 3
-
 
 Example Explanation
 Explanation 1:

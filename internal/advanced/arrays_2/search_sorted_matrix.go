@@ -27,13 +27,17 @@ Return the position of B and if it is not present in A return -1 instead.
 Example Input
 Input 1:-
 A = [[1, 2, 3]
-     [4, 5, 6]
-     [7, 8, 9]]
+
+	[4, 5, 6]
+	[7, 8, 9]]
+
 B = 2
 
 Input 2:-
 A = [[1, 2]
-     [3, 3]]
+
+	[3, 3]]
+
 B = 3
 
 Example Output

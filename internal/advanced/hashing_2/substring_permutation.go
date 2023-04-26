@@ -33,17 +33,17 @@ Output 2:
 Example Explanation
 Explanation 1:
 Permutations of A that are present in B as substring are:
-   1. abc
-   2. cba
-   3. bac
-   4. cab
-   5. abc
-   So ans is 5.
+ 1. abc
+ 2. cba
+ 3. bac
+ 4. cab
+ 5. abc
+    So ans is 5.
 
 Explanation 2:
 Permutations of A that are present in B as substring are:
-   1. aca
-   2. caa
+ 1. aca
+ 2. caa
 */
 func GetSubstringPermutation(A string, B string) int {
 	ans := 0

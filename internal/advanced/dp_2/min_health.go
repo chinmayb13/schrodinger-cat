@@ -23,17 +23,19 @@ Return an integer denoting the knight's minimum initial health so that he is abl
 Example Input
 Input 1:
 A = [
-      [-2, -3, 3],
-      [-5, -10, 1],
-      [10, 30, -5]
-    ]
+
+	  [-2, -3, 3],
+	  [-5, -10, 1],
+	  [10, 30, -5]
+	]
 
 Input 2:
 A = [
-      [1, -1, 0],
-      [-1, 1, -1],
-      [1, 0, -1]
-    ]
+
+	  [1, -1, 0],
+	  [-1, 1, -1],
+	  [1, 0, -1]
+	]
 
 Example Output
 Output 1:

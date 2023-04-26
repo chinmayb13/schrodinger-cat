@@ -14,11 +14,10 @@ Problem Constraints
 Input Format
 First argument A is an array of integers.
 
-The remaining arguments B and C are integers
+# The remaining arguments B and C are integers
 
 Output Format
 Return 1 if such a subarray exist and 0 otherwise
-
 
 Example Input
 Input 1:
@@ -31,14 +30,12 @@ A = [4, 2, 2]
 B = 2
 C = 8
 
-
 Example Output
 Output 1:
 1
 
 Output 2:
 0
-
 
 Example Explanation
 Explanation 1:

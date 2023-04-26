@@ -28,17 +28,19 @@ Example Input
 Input 1:
 A = 2
 B = [  [1, 2]
-    ]
+
+	]
 
 Input 2:
 A = 4
 B = [  [1, 2]
-       [1, 3]
-       [1, 4]
-       [2, 3]
-       [2, 4]
-       [3, 4]
-   ]
+
+	    [1, 3]
+	    [1, 4]
+	    [2, 3]
+	    [2, 4]
+	    [3, 4]
+	]
 
 Example Output
 Output 1:
@@ -50,7 +52,8 @@ Output 2:
 Example Explanation
 Explanation 1:
 There are 4 ways to make the graph poisonous. i.e, writing number on node 1 and 2 as,
-   [1, 2] , [3, 2], [2, 1] or [2, 3] repsectively.
+
+	[1, 2] , [3, 2], [2, 1] or [2, 3] repsectively.
 
 Explanation 2:
 There is no way to make the graph poisonous.

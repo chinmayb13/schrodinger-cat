@@ -28,7 +28,6 @@ Output 1:
 Output 2:
 2
 
-
 Example Explanation
 For Input 1:
 Only the element 4 has a frequency 1.

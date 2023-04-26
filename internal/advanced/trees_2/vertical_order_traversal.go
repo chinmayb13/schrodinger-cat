@@ -18,37 +18,41 @@ Return a 2D array denoting the vertical order traversal of tree as shown.
 
 Example Input
 Input 1:
-      6
-    /   \
-   3     7
-  / \     \
- 2   5     9
+
+	     6
+	   /   \
+	  3     7
+	 / \     \
+	2   5     9
 
 Input 2:
-      1
-    /   \
-   3     7
-  /       \
- 2         9
+
+	     1
+	   /   \
+	  3     7
+	 /       \
+	2         9
 
 Example Output
 Output 1:
- [
-    [2],
-    [3],
-    [6, 5],
-    [7],
-    [9]
- ]
+
+	[
+	   [2],
+	   [3],
+	   [6, 5],
+	   [7],
+	   [9]
+	]
 
 Output 2:
- [
-    [2],
-    [3],
-    [1],
-    [7],
-    [9]
- ]
+
+	[
+	   [2],
+	   [3],
+	   [1],
+	   [7],
+	   [9]
+	]
 
 Example Explanation
 Explanation 1:

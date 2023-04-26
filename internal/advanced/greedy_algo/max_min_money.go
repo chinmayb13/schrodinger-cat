@@ -56,7 +56,7 @@ Minimum money can be earned if the passenger choose : 2(senocd ship) + 2(first s
 So, the cost will be 6.
 */
 
-//idea: use max and min heap to calculate max and min money collected
+// idea: use max and min heap to calculate max and min money collected
 func GetMaxMinMoney(A int, B int, C []int) []int {
 	max, min := 0, 0
 	maxh := make(maxIntHeap, 0)

@@ -29,7 +29,7 @@ Output 1:
 Output 2:
 15
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 If you delete 12, gcd will be 3.

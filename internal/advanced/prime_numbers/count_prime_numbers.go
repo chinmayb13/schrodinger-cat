@@ -29,7 +29,6 @@ Output 1:
 Output 2:
 [2, 3, 5, 7, 11]
 
-
 Example Explanation
 For Input 1:
 The prime numbers from 1 to 7 are 2, 3, 5 and 7.

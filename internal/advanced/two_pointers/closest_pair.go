@@ -40,7 +40,7 @@ Output 1:
 Output 2:
 [10, 2]
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 There are three pairs: (1, 8), (3, 6), (5, 4), that gives the minimum value.

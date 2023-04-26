@@ -18,24 +18,26 @@ Return an integer array denoting the left view of the Binary tree.
 
 Example Input
 Input 1:
-            1
-          /   \
-         2    3
-        / \  / \
-       4   5 6  7
-      /
-     8
+
+	       1
+	     /   \
+	    2    3
+	   / \  / \
+	  4   5 6  7
+	 /
+	8
 
 Input 2:
-            1
-           /  \
-          2    3
-           \
-            4
-             \
-              5
 
-Example Output
+	  1
+	 /  \
+	2    3
+	 \
+	  4
+	   \
+	    5
+
+# Example Output
 
 Output 1:
 [1, 2, 4, 8]

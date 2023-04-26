@@ -18,10 +18,12 @@ Return the value of arithmetic expression formed using reverse Polish Notation.
 
 Example Input
 Input 1:
-    A =   ["2", "1", "+", "3", "*"]
+
+	A =   ["2", "1", "+", "3", "*"]
 
 Input 2:
-    A = ["4", "13", "5", "/", "+"]
+
+	A = ["4", "13", "5", "/", "+"]
 
 Example Output
 Output 1:

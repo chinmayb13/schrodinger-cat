@@ -34,7 +34,7 @@ Output 1:
 Output 2:
 1
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 We can re-order the given string into "abbabb".

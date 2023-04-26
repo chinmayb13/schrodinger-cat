@@ -7,14 +7,11 @@ There are A people standing in a circle. Person 1 kills their immediate clockwis
 Problem Constraints
 1 <= A <= 105
 
-
 Input Format
 First argument A is an integer.
 
-
 Output Format
 Return an integer.
-
 
 Example Input
 Input 1:

@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-//approach : Generate bitsequence from 0...0 to 2^n - 1 and against every bitmask value, add element to the subarray when bit value is set
+// approach : Generate bitsequence from 0...0 to 2^n - 1 and against every bitmask value, add element to the subarray when bit value is set
 func Subsets(nums []int) [][]int {
 	var output [][]int
 	arrLength := len(nums)

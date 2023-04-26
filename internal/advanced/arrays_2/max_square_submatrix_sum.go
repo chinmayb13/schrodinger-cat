@@ -20,21 +20,24 @@ Return a single integer denoting the maximum sum of submatrix of size B x B.
 
 Example Input
 Input 1:
- A = [
-        [1, 1, 1, 1, 1]
-        [2, 2, 2, 2, 2]
-        [3, 8, 6, 7, 3]
-        [4, 4, 4, 4, 4]
-        [5, 5, 5, 5, 5]
-     ]
+
+	A = [
+	       [1, 1, 1, 1, 1]
+	       [2, 2, 2, 2, 2]
+	       [3, 8, 6, 7, 3]
+	       [4, 4, 4, 4, 4]
+	       [5, 5, 5, 5, 5]
+	    ]
+
 B = 3
 
 Input 2:
- A = [
-        [2, 2]
-        [2, 2]
-    ]
- B = 2
+
+	A = [
+	       [2, 2]
+	       [2, 2]
+	   ]
+	B = 2
 
 Example Output
 Output 1:

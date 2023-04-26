@@ -42,7 +42,7 @@ Explanation 2:
 1 is the only value such that A%5 == 0 and gcd(1,10) = 1
 */
 
-//Idea: we have keep removing the factor of B from A, until the gcd of remnant and B is 1
+// Idea: we have keep removing the factor of B from A, until the gcd of remnant and B is 1
 func CoPrimeFact(A int, B int) int {
 	quotient := A / getGCD(A, B)
 	for getGCD(quotient, B) != 1 {

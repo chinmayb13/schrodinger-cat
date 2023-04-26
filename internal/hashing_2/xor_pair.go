@@ -9,7 +9,6 @@ NOTE:
 
 Pair (a, b) and (b, a) is considered to be the same and should be counted once.
 
-
 Problem Constraints
 1 <= N <= 105
 1 <= A[i], B <= 107

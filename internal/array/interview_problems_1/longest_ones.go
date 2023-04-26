@@ -15,14 +15,20 @@ A contains only characters 0 and 1.
 
 For Example
 Input 1:
-    A = "111000"
+
+	A = "111000"
+
 Output 1:
-    3
+
+	3
 
 Input 2:
-    A = "111011101"
+
+	A = "111011101"
+
 Output 2:
-    7
+
+	7
 */
 func GetLongestConsecutiveOnes(A string) int {
 	countOne := 0

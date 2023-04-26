@@ -30,19 +30,24 @@ Example Output
 Output 1:
 [
 [".Q..",  // Solution 1
- "...Q",
- "Q...",
- "..Q."],
+
+	"...Q",
+	"Q...",
+	"..Q."],
 
 ["..Q.",  // Solution 2
- "Q...",
- "...Q",
- ".Q.."]
+
+	"Q...",
+	"...Q",
+	".Q.."]
+
 ]
 
 Output 1:
 [
- [Q]
+
+	[Q]
+
 ]
 
 Example Explanation

@@ -26,23 +26,25 @@ Example Input
 Input 1:
 A = 5
 B = [
-      [1, 2],
-      [4, 3],
-      [1, 4],
-      [3, 4]
-    ]
+
+	  [1, 2],
+	  [4, 3],
+	  [1, 4],
+	  [3, 4]
+	]
 
 Input 2:
 A = 6
 B = [
-      [2, 3],
-      [2, 1],
-      [3, 4],
-      [6, 5],
-      [4, 5]
-    ]
 
-Example Output
+	  [2, 3],
+	  [2, 1],
+	  [3, 4],
+	  [6, 5],
+	  [4, 5]
+	]
+
+# Example Output
 
 Output 1:
 1
@@ -50,7 +52,7 @@ Output 1:
 Output 2:
 0
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 Bessie can order the guests like this: (3, 1, 2, 4). Guest 3 goes first and eats snacks 1 and 4.

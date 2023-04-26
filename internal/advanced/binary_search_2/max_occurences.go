@@ -84,7 +84,7 @@ func buildPrefixSum(inp []int, ops int) []int64 {
 	return ps
 }
 
-//idea: use sliding window
+// idea: use sliding window
 func isWindowPossible(inp []int, ps []int64, B, window int) int {
 	for i := window - 1; i < len(inp); i++ {
 		sum := ps[i]

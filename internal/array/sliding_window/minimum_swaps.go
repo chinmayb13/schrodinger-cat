@@ -16,16 +16,16 @@ The second argument given is the integer B.
 Output Format
 Return the minimum number of swaps.
 
-Example Input
+# Example Input
 
 Input 1:
 A = [1, 12, 10, 3, 14, 10, 5]
 B = 8
 
- Input 2:
+	Input 2:
+
 A = [5, 17, 100, 11]
 B = 20
-
 
 Example Output
 Output 1:
@@ -34,8 +34,7 @@ Output 1:
 Output 2:
 1
 
-
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 A = [1, 12, 10, 3, 14, 10, 5]

@@ -4,7 +4,7 @@ package dp4
 Problem Description
 Given a strictly increasing array A of positive integers forming a sequence.
 
-A sequence X1, X2, X3, ..., XN is fibonacci like if
+# A sequence X1, X2, X3, ..., XN is fibonacci like if
 
 N > =3
 Xi + Xi+1 = Xi+2 for all i+2 <= N

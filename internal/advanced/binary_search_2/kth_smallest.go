@@ -71,8 +71,8 @@ func GetBthSmallestRank(A []int, B int) int {
 	return ans
 }
 
-//for the given mid, we will find triplets whose sum is less than mid
-//if the triplet count is >=B, it means mid's rank is more than B
+// for the given mid, we will find triplets whose sum is less than mid
+// if the triplet count is >=B, it means mid's rank is more than B
 func hasMoreRank(inp []int, B, mid int) bool {
 	var k, val int
 	var count int
@@ -93,7 +93,7 @@ func hasMoreRank(inp []int, B, mid int) bool {
 	return (count) >= B
 }
 
-//returns the element just less than val
+// returns the element just less than val
 func doBS(inp []int, val, startIdx int) int {
 	k := -1
 	low := startIdx

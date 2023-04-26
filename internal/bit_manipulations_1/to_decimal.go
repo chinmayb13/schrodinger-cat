@@ -48,7 +48,7 @@ For Input 2:
 The decimal 8 in base 3 is 22.
 */
 
-//Approach: Take the digits from LSB and start multiplying them with increasing power of B
+// Approach: Take the digits from LSB and start multiplying them with increasing power of B
 func GetDecimal(A int, B int) int {
 	decimalEquiv := 0
 	quotient := A

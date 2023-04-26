@@ -17,19 +17,19 @@ Return an integer denoting the sum of node value of all left leaves in it.
 Example Input
 Input 1:
 
-    3
-   / \
-  9  20
-    /  \
-   15   7
+	  3
+	 / \
+	9  20
+	  /  \
+	 15   7
 
 Input 2:
 
-   1
-  / \
- 6   2
-    /
-   3
+	  1
+	 / \
+	6   2
+	   /
+	  3
 
 Example Output
 Output 1:

@@ -36,7 +36,7 @@ Explanation:
 Decimal number 4 in base 3 is 11.
 */
 
-//Approach: Keep on dividing the number by base and multiply the remainder by increasing power of 10 and store it into a sum
+// Approach: Keep on dividing the number by base and multiply the remainder by increasing power of 10 and store it into a sum
 func DecimalToAnyBase(A int, B int) int {
 	quotient := A
 	number := 0

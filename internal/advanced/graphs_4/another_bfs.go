@@ -76,7 +76,7 @@ Explanation 2:
 Path will be 0-> 1.
 */
 
-//idea: to use temporary vertices whenever the edge weight is 2 and do BFS to find shortest distance
+// idea: to use temporary vertices whenever the edge weight is 2 and do BFS to find shortest distance
 func GetShortestDistance(A int, B [][]int, C int, D int) int {
 	adjList := make([][]int, max(A, len(B))<<1)
 	visited := make([]bool, max(A, len(B))<<1)

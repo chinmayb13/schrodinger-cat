@@ -41,7 +41,7 @@ Cearly after converting rows to column and columns to rows of [[1, 2, 3],[4, 5, 
 we will get [[1, 4, 7], [2, 5, 8], [3, 6, 9]].
 */
 
-//This is for a rectangular matrix
+// This is for a rectangular matrix
 func GetTranspose(A [][]int) [][]int {
 	rows := len(A)
 	columns := len(A[0])

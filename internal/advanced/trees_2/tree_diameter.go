@@ -17,18 +17,20 @@ Return an single integer denoting the diameter of the tree.
 
 Example Input
 Input 1:
-           1
-         /   \
-        2     3
-       / \
-      4   5
+
+	     1
+	   /   \
+	  2     3
+	 / \
+	4   5
 
 Input 2:
-            1
-          /   \
-         2     3
-        / \     \
-       4   5     6
+
+	     1
+	   /   \
+	  2     3
+	 / \     \
+	4   5     6
 
 Example Output
 Output 1:

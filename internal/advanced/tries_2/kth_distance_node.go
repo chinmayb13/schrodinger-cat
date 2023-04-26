@@ -22,20 +22,23 @@ Return an integer array denoting the nodes at a distance C from targer node B
 Example Input
 Input 1:
 A = 1
-     \
-      2
-     /
-    3
+
+	 \
+	  2
+	 /
+	3
 
 B = 2
 C = 1
 
 Input 2:
 A = 1
-   / \
-  6   2
-     /
-    3
+
+	 / \
+	6   2
+	   /
+	  3
+
 B = 6
 C = 2
 

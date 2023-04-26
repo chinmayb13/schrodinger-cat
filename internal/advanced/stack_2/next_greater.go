@@ -6,9 +6,11 @@ The next greater element for an element A[i] is the first greater element on the
 
 More formally:
 G[i] for an element A[i] = an element A[j] such that
-    j is minimum possible AND
-    j > i AND
-    A[j] > A[i]
+
+	j is minimum possible AND
+	j > i AND
+	A[j] > A[i]
+
 Elements for which no greater element exists, consider the next greater element as -1.
 
 Problem Constraints

@@ -18,15 +18,18 @@ Return 1 if such a pair can be found, 0 otherwise.
 
 Example Input
 Input 1:
-         10
-         / \
-        9   20
+
+	 10
+	 / \
+	9   20
+
 B = 19
 
 Input 2:
-          10
-         / \
-        9   20
+
+	  10
+	 / \
+	9   20
 
 B = 40
 

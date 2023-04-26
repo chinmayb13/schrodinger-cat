@@ -16,16 +16,18 @@ Return an integer denoting the area of the largest rectangle containing only one
 Example Input
 Input 1:
 A = [
-      [1, 1, 1]
-      [0, 1, 1]
-      [1, 0, 0]
-    ]
+
+	  [1, 1, 1]
+	  [0, 1, 1]
+	  [1, 0, 0]
+	]
 
 Input 2:
 A = [
-      [0, 1, 0]
-      [1, 1, 1]
-    ]
+
+	  [0, 1, 0]
+	  [1, 1, 1]
+	]
 
 Example Output
 Output 1:

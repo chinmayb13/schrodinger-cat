@@ -24,16 +24,20 @@ Return the B closest points to the origin (0, 0) in any order.
 Example Input
 Input 1:
 A = [
-       [1, 3],
-       [-2, 2]
-     ]
+
+	  [1, 3],
+	  [-2, 2]
+	]
+
 B = 1
 
 Input 2:
 A = [
-       [1, -1],
-       [2, -1]
-     ]
+
+	  [1, -1],
+	  [2, -1]
+	]
+
 B = 1
 
 Example Output

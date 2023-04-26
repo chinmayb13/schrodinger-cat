@@ -47,10 +47,12 @@ Row 4: 01101001
 
 /*
 approach:
+
 	0
 	01
 	0110
 	01101001
+
 If we look at the pattern, element at ith index and element at i/2th index are same when i is even,
 while they are changing when the i is odd
 */

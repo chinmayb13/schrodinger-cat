@@ -21,7 +21,6 @@ Input 1:
 [5,6,7,8]
 [9,2,3,4]
 
-
 Example Output
 Output 1:
 {15,10,13,16}

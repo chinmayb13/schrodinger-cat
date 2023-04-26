@@ -28,20 +28,26 @@ Example Input
 Input 1:
 A = 4
 B = [
-      [1, 2]
-    ]
+
+	  [1, 2]
+	]
+
 C = [
-      [3, 4]
-    ]
+
+	  [3, 4]
+	]
 
 Input 2:
 A = 3
 B = [
-      [1, 2]
-    ]
+
+	  [1, 2]
+	]
+
 C = [
-      [1, 3]
-    ]
+
+	  [1, 3]
+	]
 
 Example Output
 Output 1:
@@ -50,7 +56,7 @@ Output 1:
 Output 2:
 0
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 There are four ways to suggest the diet:

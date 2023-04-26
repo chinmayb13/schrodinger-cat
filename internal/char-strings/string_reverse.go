@@ -15,7 +15,7 @@ First and only argument is a string A.
 Output Format
 Return a string denoting the reversed string.
 
-Example Input
+# Example Input
 
 Input 1:
 A = "scaler"

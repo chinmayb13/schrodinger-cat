@@ -20,28 +20,30 @@ Return the LCA of the two nodes
 
 Example Input
 Input 1:
-            15
-          /    \
-        12      20
-        / \    /  \
-       10  14  16  27
-      /
-     8
 
-     B = 8
-     C = 20
+	       15
+	     /    \
+	   12      20
+	   / \    /  \
+	  10  14  16  27
+	 /
+	8
+
+	B = 8
+	C = 20
 
 Input 2:
-            8
-           / \
-          6  21
-         / \
-        1   7
 
-     B = 7
-     C = 1
+	       8
+	      / \
+	     6  21
+	    / \
+	   1   7
 
-Example Output
+	B = 7
+	C = 1
+
+# Example Output
 
 Output 1:
 15

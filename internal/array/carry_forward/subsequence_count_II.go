@@ -1,6 +1,6 @@
 package carryforward
 
-//TODO: need to fix the logic
+// TODO: need to fix the logic
 func GetSubSeqCountII(A string) int {
 	//number of occurences of character A and X
 	countA := 0

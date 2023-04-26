@@ -47,7 +47,7 @@ Explanation 2:
 Similiar to the first example, the sum of all subarray sums for this array is 19.
 */
 
-//formula A[i]x(i+1)x(N-i)
+// formula A[i]x(i+1)x(N-i)
 func GetTotalSubArraySum(A []int) int64 {
 	var totSum int64
 	arrLength := len(A)

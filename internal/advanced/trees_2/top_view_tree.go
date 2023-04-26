@@ -20,22 +20,24 @@ Return an array, representing the top view of the binary tree.
 
 Example Input
 Input 1:
-            1
-          /   \
-         2    3
-        / \  / \
-       4   5 6  7
-      /
-     8
+
+	       1
+	     /   \
+	    2    3
+	   / \  / \
+	  4   5 6  7
+	 /
+	8
 
 Input 2:
-            1
-           /  \
-          2    3
-           \
-            4
-             \
-              5
+
+	  1
+	 /  \
+	2    3
+	 \
+	  4
+	   \
+	    5
 
 Example Output
 Output 1:

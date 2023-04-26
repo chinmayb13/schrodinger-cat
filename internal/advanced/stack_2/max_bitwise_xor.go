@@ -52,7 +52,7 @@ func GetMaxXor(A []int) int {
 //we are taking NGL because, because we want to fix the current element as the max
 //and try xoring with smaller elements before popping
 
-//idea: the xor can be maximised by taking the max and comparing it with smaller elements
+// idea: the xor can be maximised by taking the max and comparing it with smaller elements
 func getLeftMaxXor(inp []int) int {
 	leftMaxXor := 0
 	candidateList := newStack()
@@ -66,7 +66,7 @@ func getLeftMaxXor(inp []int) int {
 	return leftMaxXor
 }
 
-//get nearest smaller element from right
+// get nearest smaller element from right
 func getrightMaxXor(inp []int) int {
 	rightMaxXor := 0
 	candidateList := newStack()

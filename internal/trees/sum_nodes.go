@@ -17,17 +17,19 @@ Return an integer denoting the sum of all the nodes
 Example Input
 Input 1:
 A =   2
-      / \
-     1   4
-    /
-   5
+
+	   / \
+	  1   4
+	 /
+	5
 
 Input 2:
 A =   3
-      / \
-      6  1
-      \   \
-       2   7
+
+	/ \
+	6  1
+	\   \
+	 2   7
 
 Example Output
 Output 1:

@@ -28,7 +28,6 @@ Input 2:
 A = [1, 6, 4, 2, 6, 9]
 B = [2, 5, 7, 3, 2, 7]
 
-
 Example Output
 Output 1:
 6

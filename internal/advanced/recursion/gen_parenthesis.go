@@ -29,7 +29,6 @@ Output 1:
 Output 2:
 [ "()" ]
 
-
 Example Explanation
 Explanation 1:
 All paranthesis are given in the output list.

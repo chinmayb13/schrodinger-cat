@@ -15,7 +15,7 @@ The first and only argument of input contains an integer array A.
 Output Format
 Return a single integer denoting the single element.
 
-Example Input
+# Example Input
 
 Input 1:
 A = [1, 2, 2, 3, 1]
@@ -23,7 +23,7 @@ A = [1, 2, 2, 3, 1]
 Input 2:
 A = [1, 2, 2]
 
-Example Output
+# Example Output
 
 Output 1:
 3
@@ -31,7 +31,7 @@ Output 1:
 Output 2:
 1
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 3 occurs once.

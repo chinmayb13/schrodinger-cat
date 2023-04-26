@@ -52,7 +52,7 @@ Explanation 2:
 No element satisfies any condition.
 */
 
-//idea: do one pass from left and another from right to find the median
+// idea: do one pass from left and another from right to find the median
 func ContainsSpecialMedian(A []int) int {
 	if medianFromLeft(A) || medianFromRight(A) {
 		return 1

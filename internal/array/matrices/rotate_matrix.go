@@ -10,7 +10,6 @@ You need to do this in place.
 
 Note: If you end up using an additional array, you will only receive partial score.
 
-
 Problem Constraints
 1 <= n <= 1000
 
@@ -23,30 +22,30 @@ Return the 2D rotated matrix.
 Example Input
 Input 1:
 
- [
-    [1, 2],
-    [3, 4]
- ]
+	[
+	   [1, 2],
+	   [3, 4]
+	]
+
 Input 2:
 
- [
-    [1]
- ]
-
+	[
+	   [1]
+	]
 
 Example Output
 Output 1:
 
- [
-    [3, 1],
-    [4, 2]
- ]
+	[
+	   [3, 1],
+	   [4, 2]
+	]
+
 Output 2:
 
- [
-    [1]
- ]
-
+	[
+	   [1]
+	]
 
 Example Explanation
 Explanation 1:

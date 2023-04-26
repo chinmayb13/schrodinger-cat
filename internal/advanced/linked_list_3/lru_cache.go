@@ -14,14 +14,15 @@ NOTE: If you are using any global variables, make sure to clear them in the cons
 Example :
 
 Input :
-         capacity = 2
-         set(1, 10)
-         set(5, 12)
-         get(5)        returns 12
-         get(1)        returns 10
-         get(10)       returns -1
-         set(6, 14)    this pushes out key = 5 as LRU is full.
-         get(5)        returns -1
+
+	capacity = 2
+	set(1, 10)
+	set(5, 12)
+	get(5)        returns 12
+	get(1)        returns 10
+	get(10)       returns -1
+	set(6, 14)    this pushes out key = 5 as LRU is full.
+	get(5)        returns -1
 */
 type dListNode struct {
 	value int

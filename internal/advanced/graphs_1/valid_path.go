@@ -14,7 +14,7 @@ Problem Constraints
 0 <= x , y, R <= 100
 1 <= N <= 1000
 
-Center of each circle would lie within the grid
+# Center of each circle would lie within the grid
 
 Input Format
 1st argument given is an Integer x , denoted by A in input.

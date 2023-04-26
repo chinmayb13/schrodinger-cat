@@ -7,33 +7,31 @@ For every query, the task is to calculate the sum of all odd indices in the rang
 
 Note : Use 0-based indexing
 
-
 Problem Constraints
 1 <= N <= 105
 1 <= Q <= 105
 1 <= A[i] <= 100
 0 <= B[i][0] <= B[i][1] < N
 
-
 Input Format
 First argument A is an array of integers.
 Second argument B is a 2D array of integers.
 
-
 Output Format
 Return an array of integers.
-
 
 Example Input
 Input 1:
 A = [1, 2, 3, 4, 5]
 B = [   [0,2]
-        [1,4]   ]
+
+	[1,4]   ]
+
 Input 2:
 A = [2, 1, 8, 3, 9]
 B = [   [0,3]
-        [2,4]   ]
 
+	[2,4]   ]
 
 Example Output
 Output 1:
@@ -41,7 +39,6 @@ Output 1:
 
 Output 2:
 [4, 3]
-
 
 Example Explanation
 For Input 1:

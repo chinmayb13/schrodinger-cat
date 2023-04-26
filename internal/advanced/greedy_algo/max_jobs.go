@@ -47,7 +47,7 @@ type info struct {
 	start, end int
 }
 
-//idea: sort end time of the jobs in ascending order
+// idea: sort end time of the jobs in ascending order
 func GetMaxJobsDone(A []int, B []int) int {
 	N := len(A)
 	ans := 1

@@ -24,9 +24,10 @@ Input 1:
 
 Input 2:
 3 -> 2 -> 4 -> 5 -> 6
-          ^         |
-          |         |
-          - - - - - -
+
+	^         |
+	|         |
+	- - - - - -
 
 Example Output
 Output 1:

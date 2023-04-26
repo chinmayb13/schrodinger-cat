@@ -23,16 +23,18 @@ A : [1, 2, 3, 5, 10]
 
 Example Output
 Output 1:
-      2
-    /   \
-   1     3
+
+	   2
+	 /   \
+	1     3
 
 Output 2:
-      3
-    /   \
-   2     5
-  /       \
- 1         10
+
+	     3
+	   /   \
+	  2     5
+	 /       \
+	1         10
 
 Example Explanation
 Explanation 1:

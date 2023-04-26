@@ -39,8 +39,10 @@ Only 1 is to be arranged.
 
 Explanation 2:
 1 --> 2
-      |
-      |
+
+	|
+	|
+
 4<--- 3
 */
 func GenerateSpiralMatrix(A int) [][]int {

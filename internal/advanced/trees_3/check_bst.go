@@ -23,13 +23,16 @@ Return 0 if false and 1 if true.
 
 Example Input
 Input 1:
-   1
-  /  \
- 2    3
+
+	  1
+	 /  \
+	2    3
 
 Input 2:
-  2
- / \
+
+	 2
+	/ \
+
 1   3
 
 Example Output

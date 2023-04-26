@@ -31,8 +31,10 @@ Return an integer array containing the submatrix sum for each query.
 Example Input
 Input 1:
 A = [[1, 2, 3]
-     [4, 5, 6]
-     [7, 8, 9]]
+
+	[4, 5, 6]
+	[7, 8, 9]]
+
 B = [1, 2]
 C = [1, 2]
 D = [2, 3]
@@ -41,7 +43,9 @@ E = [2, 3]
 Input 2:
 
 A = [   [5, 17, 100, 11]
-        [0, 0,  2,   8]    ]
+
+	[0, 0,  2,   8]    ]
+
 B = [1, 1]
 C = [1, 4]
 D = [2, 2]

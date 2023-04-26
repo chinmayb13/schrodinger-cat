@@ -15,20 +15,23 @@ Return 0 / 1 ( 0 for false, 1 for true ).
 
 Example Input
 Input 1:
-    1
-   / \
-  2   2
- / \ / \
+
+	   1
+	  / \
+	 2   2
+	/ \ / \
+
 3  4 4  3
 
 Input 2:
-    1
-   / \
-  2   2
-   \   \
-   3    3
 
-Example Output
+	  1
+	 / \
+	2   2
+	 \   \
+	 3    3
+
+# Example Output
 
 Output 1:
 1

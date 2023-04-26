@@ -19,18 +19,22 @@ Return the LCA.
 
 Example Input
 Input 1:
-      1
-     /  \
-    2    3
+
+	  1
+	 /  \
+	2    3
+
 B = 2
 C = 3
 
 Input 2:
-      1
-     /  \
-    2    3
-   / \
-  4   5
+
+	    1
+	   /  \
+	  2    3
+	 / \
+	4   5
+
 B = 4
 C = 5
 

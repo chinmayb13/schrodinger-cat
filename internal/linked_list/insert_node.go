@@ -9,7 +9,6 @@ In case the position is more than length of linked list, simply insert the new n
 In case the pos is 0 or less, simply insert the new node at head only.
 Follow 0-based indexing for the node numbering.
 
-
 Problem Constraints
 1 <= size of linked list <= 105
 1 <= value of nodes <= 109

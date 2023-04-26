@@ -16,16 +16,18 @@ Return an integer denoting the number of nodes of the tree.
 
 Example Input
 Input 1:
- Values =  1
-          / \
-         4   3
+
+	Values =  1
+	         / \
+	        4   3
 
 Input 2:
- Values =  1
-          / \
-         4   3
-        /
-       2
+
+	Values =  1
+	         / \
+	        4   3
+	       /
+	      2
 
 Example Output
 Output 1:

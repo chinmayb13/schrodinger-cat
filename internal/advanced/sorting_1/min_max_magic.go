@@ -9,7 +9,7 @@ import (
 Problem Description
 Given an array of integers A of size N where N is even.
 
-Divide the array into two subsets such that
+# Divide the array into two subsets such that
 
 1.Length of both subset is equal.
 2.Each element of A occurs in exactly one of these subset.

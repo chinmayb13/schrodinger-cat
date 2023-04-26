@@ -39,11 +39,12 @@ All three points make a right angled triangle. So return 1.
 
 Explanation 2:
 6 triplets which make a right angled triangle are:    (1, 1), (1, 2), (2, 2)
-                                                      (1, 1), (3, 1), (1, 2)
-                                                      (1, 1), (3, 1), (3, 2)
-                                                      (2, 1), (3, 1), (3, 2)
-                                                      (1, 1), (1, 2), (3, 2)
-                                                      (1, 2), (3, 1), (3, 2)
+
+	(1, 1), (3, 1), (1, 2)
+	(1, 1), (3, 1), (3, 2)
+	(2, 1), (3, 1), (3, 2)
+	(1, 1), (1, 2), (3, 2)
+	(1, 2), (3, 1), (3, 2)
 */
 func GetRightTriangleCount(A []int, B []int) int {
 	var ans int

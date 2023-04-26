@@ -18,12 +18,14 @@ Return an integer denoting the sum of main diagonal elements.
 Example Input
 Input 1:
 A = [[1, -2, -3],
-      [-4, 5, -6],
-      [-7, -8, 9]]
+
+	[-4, 5, -6],
+	[-7, -8, 9]]
+
 Input 2:
 A = [[3, 2],
-      [2, 3]]
 
+	[2, 3]]
 
 Example Output
 Output 1:

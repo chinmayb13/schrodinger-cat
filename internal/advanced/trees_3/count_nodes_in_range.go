@@ -20,26 +20,28 @@ Return the count of the number of nodes that lies in the given range.
 
 Example Input
 Input 1:
-            15
-          /    \
-        12      20
-        / \    /  \
-       10  14  16  27
-      /
-     8
 
-     B = 12
-     C = 20
+	       15
+	     /    \
+	   12      20
+	   / \    /  \
+	  10  14  16  27
+	 /
+	8
+
+	B = 12
+	C = 20
 
 Input 2:
-            8
-           / \
-          6  21
-         / \
-        1   7
 
-     B = 2
-     C = 20
+	       8
+	      / \
+	     6  21
+	    / \
+	   1   7
+
+	B = 2
+	C = 20
 
 Example Output
 Output 1:

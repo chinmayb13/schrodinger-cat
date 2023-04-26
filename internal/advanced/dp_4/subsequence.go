@@ -38,9 +38,11 @@ Both the strings are equal.
 Explanation 2:
 
 These are the possible removals of characters:
-   => A = "ra_bbit"
-   => A = "rab_bit"
-   => A = "rabb_it"
+
+	=> A = "ra_bbit"
+	=> A = "rab_bit"
+	=> A = "rabb_it"
+
 Note: "_" marks the removed character.
 */
 func GetDistinctWays(A string, B string) int {

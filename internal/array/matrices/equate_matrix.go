@@ -5,8 +5,6 @@ Problem Description
 You are given two matrices A & B of equal dimensions and you have to check whether two matrices are equal or not.
 NOTE: Both matrices are equal if A[i][j] == B[i][j] for all i and j in the given range.
 
-
-
 Problem Constraints
 1 <= A.size(), B.size() <= 1000
 1 <= A[i].size(), B[i].size() <= 1000

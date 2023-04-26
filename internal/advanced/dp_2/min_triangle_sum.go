@@ -18,11 +18,12 @@ Return the minimum sum
 Example Input
 Input 1:
 A = [
-         [2],
-        [3, 4],
-       [6, 5, 7],
-      [4, 1, 8, 3]
-    ]
+
+	     [2],
+	    [3, 4],
+	   [6, 5, 7],
+	  [4, 1, 8, 3]
+	]
 
 Input 2:
 A = [ [1] ]

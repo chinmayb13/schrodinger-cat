@@ -19,17 +19,17 @@ Return the maximum value of | A [ i ] - A [ j ] | + | B [ i ] - B [ j ] | + | C 
 Example Input
 Input 1:
 
- A = [1, 2, 3, 4]
- B = [-1, 4, 5, 6]
- C = [-10, 5, 3, -8]
- D = [-1, -9, -6, -10]
+	A = [1, 2, 3, 4]
+	B = [-1, 4, 5, 6]
+	C = [-10, 5, 3, -8]
+	D = [-1, -9, -6, -10]
 
- Input 2:
+	Input 2:
 
- A = [1, 2]
- B = [3, 6]
- C = [10, 11]
- D = [1, 6]
+	A = [1, 2]
+	B = [3, 6]
+	C = [10, 11]
+	D = [1, 6]
 
 Example Output
 Output 1:

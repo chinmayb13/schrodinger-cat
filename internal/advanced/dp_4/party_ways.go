@@ -22,7 +22,7 @@ A = 3
 Input 2:
 A = 5
 
-Example Output
+# Example Output
 
 Output 1:
 4
@@ -30,7 +30,7 @@ Output 1:
 Output 2:
 26
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 Let suppose three people are A, B, and C. There are only 4 ways to party

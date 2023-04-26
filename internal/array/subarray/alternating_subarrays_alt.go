@@ -1,6 +1,6 @@
 package subarray
 
-//Two Pointer Approach:
+// Two Pointer Approach:
 func GetAlternateSubArrCentreIdxListAltII(A []int, B int) []int {
 	if B == 0 {
 		return getAllIndexes(len(A))

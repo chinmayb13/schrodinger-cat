@@ -20,34 +20,38 @@ Return the node denoting the root of the new clone graph.
 
 Example Input
 Input 1:
-      1
-    / | \
-   3  2  4
-        / \
-       5   6
+
+	   1
+	 / | \
+	3  2  4
+	     / \
+	    5   6
 
 Input 2:
-      1
-     / \
-    3   4
-   /   /|\
-  2   5 7 6
+
+	    1
+	   / \
+	  3   4
+	 /   /|\
+	2   5 7 6
 
 Example Output
 Output 1:
 Output will the same graph but with new pointers:
-      1
-    / | \
-   3  2  4
-        / \
-       5   6
+
+	   1
+	 / | \
+	3  2  4
+	     / \
+	    5   6
 
 Output 2:
-      1
-     / \
-    3   4
-   /   /|\
-  2   5 7 6
+
+	    1
+	   / \
+	  3   4
+	 /   /|\
+	2   5 7 6
 
 Example Explanation
 Explanation 1:

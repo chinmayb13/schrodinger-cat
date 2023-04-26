@@ -21,22 +21,24 @@ Return an integer denoting the distance between two nodes with given two keys B 
 
 Example Input
 Input 1:
-         5
-       /   \
-      2     8
-     / \   / \
-    1   4 6   11
- B = 2
- C = 11
+
+	        5
+	      /   \
+	     2     8
+	    / \   / \
+	   1   4 6   11
+	B = 2
+	C = 11
 
 Input 2:
-         6
-       /   \
-      2     9
-     / \   / \
-    1   4 7   10
- B = 2
- C = 6
+
+	        6
+	      /   \
+	     2     9
+	    / \   / \
+	   1   4 7   10
+	B = 2
+	C = 6
 
 Example Output
 Output 1:

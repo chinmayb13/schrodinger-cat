@@ -21,17 +21,19 @@ Return an integer denoting the maximum number of envelopes you can put one insid
 Example Input
 Input 1:
 A = [
-        [5, 4]
-        [6, 4]
-        [6, 7]
-        [2, 3]
-    ]
+
+	    [5, 4]
+	    [6, 4]
+	    [6, 7]
+	    [2, 3]
+	]
 
 Input 2:
 A = [     '
-        [8, 9]
-        [8, 18]
-    ]
+
+	    [8, 9]
+	    [8, 18]
+	]
 
 Example Output
 Output 1:

@@ -20,20 +20,17 @@ Input 1:
 
 Input 2:
 
-
-    4
-   / \
-  5   2
-     / \
-    3   6
-
+	  4
+	 / \
+	5   2
+	   / \
+	  3   6
 
 Example Output
 Output 1:
 1
 Output 2:
 3
-
 
 Example Explanation
 Explanation 1:

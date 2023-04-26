@@ -12,7 +12,7 @@ Find the number of batches selected.
 
 NOTE: If student x and student y know each other, student y and z know each other then student x and student z will also know each other.
 
-Problem Constraints
+# Problem Constraints
 
 1 <= A <= 105
 1 <= M <= 2*105
@@ -20,14 +20,14 @@ Problem Constraints
 1 <= C[i][0], C[i][1] <= A
 1 <= D <= 109
 
-Input Format
+# Input Format
 
 The first argument given is an integer A.
 The second argument given is an integer array B.
 The third argument given is a matrix C.
 The fourth argument given is an integer D.
 
-Output Format
+# Output Format
 
 Return the number of batches selected in IB.
 
@@ -36,16 +36,20 @@ Input 1:
 A = 7
 B = [1, 6, 7, 2, 9, 4, 5]
 C = [  [1, 2]
-       [2, 3]
-      `[5, 6]
-       [5, 7]  ]
+
+	 [2, 3]
+	`[5, 6]
+	 [5, 7]  ]
+
 D = 12
 
 Input 2:
 A = 5
 B = [1, 2, 3, 4, 5]
 C = [  [1, 5]
-       [2, 3]  ]
+
+	[2, 3]  ]
+
 D = 6
 
 Example Output
@@ -58,17 +62,19 @@ Output 2:
 Example Explanation
 Explanation 1:
 Initial Batches :
-   Batch 1 = {1, 2, 3} Batch Strength = 1 + 6 + 7 = 14
-   Batch 2 = {4} Batch Strength = 2
-   Batch 3 = {5, 6, 7} Batch Strength = 9 + 4 + 5 = 18
-   Selected Batches are Batch 1 and Batch 2.
+
+	Batch 1 = {1, 2, 3} Batch Strength = 1 + 6 + 7 = 14
+	Batch 2 = {4} Batch Strength = 2
+	Batch 3 = {5, 6, 7} Batch Strength = 9 + 4 + 5 = 18
+	Selected Batches are Batch 1 and Batch 2.
 
 Explanation 2:
 Initial Batches :
-   Batch 1 = {1, 5} Batch Strength = 1 + 5  = 6
-   Batch 2 = {2, 3} Batch Strength = 5
-   Batch 3 = {4} Batch Strength = 4
-   Selected Batch is only Batch 1.
+
+	Batch 1 = {1, 5} Batch Strength = 1 + 5  = 6
+	Batch 2 = {2, 3} Batch Strength = 5
+	Batch 3 = {4} Batch Strength = 4
+	Selected Batch is only Batch 1.
 */
 func GetBatchCount(A int, B []int, C [][]int, D int) int {
 	ans := 0

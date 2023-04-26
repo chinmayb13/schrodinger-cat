@@ -36,7 +36,7 @@ Output 1:
 Output 2:
 [1]
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 We perform the following sequence of operations:

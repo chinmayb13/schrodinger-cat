@@ -17,16 +17,18 @@ Return 0 / 1 ( 0 for false, 1 for true ) for this problem.
 
 Example Input
 Input 1:
-    1
-   / \
-  2   3
+
+	  1
+	 / \
+	2   3
 
 Input 2:
-       1
-      /
-     2
-    /
-   3
+
+	    1
+	   /
+	  2
+	 /
+	3
 
 Example Output
 Output 1:

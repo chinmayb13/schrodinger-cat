@@ -16,7 +16,8 @@ Return an integer denoting the sum of all possible submatrices in the given matr
 
 Example Input
 A = [ [1, 1]
-      [1, 1] ]
+
+	[1, 1] ]
 
 Example Output
 16

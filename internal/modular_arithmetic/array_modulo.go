@@ -48,7 +48,7 @@ func GetArrayModAlt(A []int, B int) int {
 	return num
 }
 
-//approach: num=num+A[i]*pow
+// approach: num=num+A[i]*pow
 func GetArrayMod(A []int, B int) int {
 	num := 0
 	var pow int64 = 1

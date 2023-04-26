@@ -6,7 +6,7 @@ Given a undirected graph having A nodes. A matrix B of size M x 2 is given which
 
 Find whether the given graph is bipartite or not.
 
-A graph is bipartite if we can split it's set of nodes into two independent subsets A and B such that every edge in the graph has one node in A and another node in B
+# A graph is bipartite if we can split it's set of nodes into two independent subsets A and B such that every edge in the graph has one node in A and another node in B
 
 Note:
 There are no self-loops in the graph.

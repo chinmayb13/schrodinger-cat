@@ -28,13 +28,15 @@ Example Input
 Input 1:
 A = "10010"
 B = [[1, 2]
-     [2, 3]]
+
+	[2, 3]]
 
 Input 2:
 A = "010000100"
 B = [[2, 5]
-     [1, 7]
-     [2, 9]]
+
+	[1, 7]
+	[2, 9]]
 
 Example Output
 Output 1:

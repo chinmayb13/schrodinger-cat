@@ -34,7 +34,8 @@ Example Explanation
 Explanation 1:
 The absolute difference between any two adjacent elements is 1, which is the minimum value.
 
- Explanation 2:
+	Explanation 2:
+
 The minimum value is 6 (|11 - 5| or |17 - 11|).
 */
 func MinAbsDiff(A []int) int {

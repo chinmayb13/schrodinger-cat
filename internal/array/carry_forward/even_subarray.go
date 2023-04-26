@@ -9,8 +9,6 @@ Decide whether it is possible to divide the array into one or more subarrays of 
 
 Return "YES" if it is possible; otherwise, return "NO" (without quotes).
 
-
-
 Problem Constraints
 1 <= |A|, A[i] <= 106
 
@@ -26,7 +24,6 @@ A = [2, 4, 8, 6]
 
 Input 2:
 A = [2, 4, 8, 7, 6]
-
 
 Example Output
 Output 1:

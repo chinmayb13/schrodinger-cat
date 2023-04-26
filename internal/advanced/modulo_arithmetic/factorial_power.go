@@ -42,38 +42,38 @@ Explanation 2:
 */
 
 /*
-   Solution Approach:
+Solution Approach:
 
-   We have to find A ^ B! now as we can notice for larger values
-   of B! the result num gets too large fairly quickly and could also cause overflow
-   so to optimimize this we need to find a optimal way to calculate B!
+We have to find A ^ B! now as we can notice for larger values
+of B! the result num gets too large fairly quickly and could also cause overflow
+so to optimimize this we need to find a optimal way to calculate B!
 
-   As we can notice from the problem statement we need to return A ^ B! % 1e9 + 7
-   Here 1e9 + 7 is a prime number. This looks somewhat similar to Fermat’s Little Theorem, i.e,
+As we can notice from the problem statement we need to return A ^ B! % 1e9 + 7
+Here 1e9 + 7 is a prime number. This looks somewhat similar to Fermat’s Little Theorem, i.e,
 
-   → A ^ (P-1) % P = 1 (1)
-   we can write A^ B! as;
+→ A ^ (P-1) % P = 1 (1)
+we can write A^ B! as;
 
-   A ^ B! = A ^ (p-1) * A ^ (p-1) * A ^ (p-1) … A ^ X  (2)
+A ^ B! = A ^ (p-1) * A ^ (p-1) * A ^ (p-1) … A ^ X  (2)
 
-   But since we need to find A^B! % P; we can write eqn 2 as
-   (A ^ B!) % P = (A ^ (p-1) * A ^ (p-1) * A ^ (p-1) … A ^ X) % P  ___(3)
+But since we need to find A^B! % P; we can write eqn 2 as
+(A ^ B!) % P = (A ^ (p-1) * A ^ (p-1) * A ^ (p-1) … A ^ X) % P  ___(3)
 
-   Using assiociative property of modulo multiplication;
-   → (ab)%p = ((a % P)(b % P)) % P
+Using assiociative property of modulo multiplication;
+→ (ab)%p = ((a % P)(b % P)) % P
 
-   So every term with A ^ (p-1) in eqn 3 will be == 1 by applying FLT [eqn(1)]
-   and we will be only left with A^X % P on RHS in eqn 3
-   → A^B! % P = A^X % P
+So every term with A ^ (p-1) in eqn 3 will be == 1 by applying FLT [eqn(1)]
+and we will be only left with A^X % P on RHS in eqn 3
+→ A^B! % P = A^X % P
 
-   Now X is nothing but B! % (P - 1) since we continuously substracted P-1 from B!
-   And as we know repetative substraction is division.
+Now X is nothing but B! % (P - 1) since we continuously substracted P-1 from B!
+And as we know repetative substraction is division.
 
-   So our problem has now been reduced down to finding
-   1. value of; X = B! % (P - 1)
-   2. value of; A ^ X
+So our problem has now been reduced down to finding
+1. value of; X = B! % (P - 1)
+2. value of; A ^ X
 
-   finally we can return ans % P
+finally we can return ans % P
 */
 func GetLargePower(A int, B int) int {
 	var mod int = 1e9 + 7

@@ -19,17 +19,19 @@ Return an integer denoting the number of unique paths from (1, 1) to (n, m).
 Example Input
 Input 1:
 A = [
-       [0, 0, 0]
-       [0, 1, 0]
-       [0, 0, 0]
-    ]
+
+	   [0, 0, 0]
+	   [0, 1, 0]
+	   [0, 0, 0]
+	]
 
 Input 2:
 A = [
-       [0, 0, 0]
-       [1, 1, 1]
-       [0, 0, 0]
-    ]
+
+	   [0, 0, 0]
+	   [1, 1, 1]
+	   [0, 0, 0]
+	]
 
 Example Output
 Output 1:

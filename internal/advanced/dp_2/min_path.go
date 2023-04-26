@@ -21,17 +21,19 @@ Return an integer denoting the minimum sum of the path.
 Example Input
 Input 1:
 A = [
-      [1, 3, 2]
-      [4, 3, 1]
-      [5, 6, 1]
-    ]
+
+	  [1, 3, 2]
+	  [4, 3, 1]
+	  [5, 6, 1]
+	]
 
 Input 2:
 A = [
-      [1, -3, 2]
-      [2, 5, 10]
-      [5, -5, 1]
-    ]
+
+	  [1, -3, 2]
+	  [2, 5, 10]
+	  [5, -5, 1]
+	]
 
 Example Output
 Output 1:

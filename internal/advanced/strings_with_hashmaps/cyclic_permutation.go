@@ -60,7 +60,7 @@ func GetSimilarPatternCount(A string, B string) int {
 	return ans
 }
 
-//KMP algorithm to build LPS array
+// KMP algorithm to build LPS array
 func computeLPSArray(inp string) []int {
 	lps := make([]int, len(inp))
 	var x int

@@ -38,7 +38,7 @@ Explanation 2:
 There exist no integer satisfying the required conditions.
 */
 
-//approach: update the count to index only when a new element in the array is encountered
+// approach: update the count to index only when a new element in the array is encountered
 func GetNobleCount(A []int) int {
 	sort.SliceStable(A, func(i, j int) bool {
 		return A[i] > A[j]

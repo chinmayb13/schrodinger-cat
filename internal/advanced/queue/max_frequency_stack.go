@@ -29,22 +29,24 @@ Return the array of integers denoting the answer to each operation.
 Example Input
 Input 1:
 A = [
-            [1, 5]
-            [1, 7]
-            [1, 5]
-            [1, 7]
-            [1, 4]
-            [1, 5]
-            [2, 0]
-            [2, 0]
-            [2, 0]
-            [2, 0]  ]
+
+	[1, 5]
+	[1, 7]
+	[1, 5]
+	[1, 7]
+	[1, 4]
+	[1, 5]
+	[2, 0]
+	[2, 0]
+	[2, 0]
+	[2, 0]  ]
 
 Input 2:
 A =  [
-       [1, 5]
-       [2, 0]
-       [1, 4]   ]
+
+	[1, 5]
+	[2, 0]
+	[1, 4]   ]
 
 Example Output
 Output 1:

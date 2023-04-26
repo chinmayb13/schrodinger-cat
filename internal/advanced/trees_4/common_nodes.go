@@ -21,42 +21,44 @@ Return an integer denoting the (sum of all common nodes in both BST's A and B) %
 
 Example Input
 Input 1:
- Tree A:
-    5
-   / \
-  2   8
-   \   \
-    3   15
-        /
-        9
 
- Tree B:
-    7
-   / \
-  1  10
-   \   \
-    2  15
-       /
-      11
+	Tree A:
+	   5
+	  / \
+	 2   8
+	  \   \
+	   3   15
+	       /
+	       9
+
+	Tree B:
+	   7
+	  / \
+	 1  10
+	  \   \
+	   2  15
+	      /
+	     11
 
 Input 2:
-  Tree A:
-    7
-   / \
-  1   10
-   \   \
-    2   15
-        /
-       11
 
- Tree B:
-    7
-   / \
-  1  10
-   \   \
-    2  15
-       /
-      11
+	 Tree A:
+	   7
+	  / \
+	 1   10
+	  \   \
+	   2   15
+	       /
+	      11
+
+	Tree B:
+	   7
+	  / \
+	 1  10
+	  \   \
+	   2  15
+	      /
+	     11
 
 Example Output
 Output 1:
@@ -80,7 +82,7 @@ func GetCommonNodeSum(A *treeNode, B *treeNode) int {
 	return findCommon(B, hs)
 }
 
-//use morris algo to iterate inorder and store the value in hashset
+// use morris algo to iterate inorder and store the value in hashset
 func findCommon(root *treeNode, hs map[int]bool) int {
 	var mod int = 1e9 + 7
 	ans := 0

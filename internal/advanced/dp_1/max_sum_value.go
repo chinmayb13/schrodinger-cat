@@ -39,7 +39,7 @@ Output 1:
 Output 2:
 -4
 
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 If you choose i = 2, j = 2, and k = 3 then we will get

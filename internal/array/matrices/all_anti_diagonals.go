@@ -4,21 +4,17 @@ package matrices
 Problem Description
 Give a N * N square matrix A, return an array of its anti-diagonals. Look at the example for more details.
 
-
 Problem Constraints
 1<= N <= 1000
 1<= A[i][j] <= 1e9
-
 
 Input Format
 First argument is an integer N, denoting the size of square 2D matrix.
 Second argument is a 2D array A of size N * N.
 
-
 Output Format
 Return a 2D integer array of size (2 * N-1) * N, representing the anti-diagonals of input array A.
 The vacant spaces in the grid should be assigned to 0.
-
 
 Example Input
 Input 1:
@@ -30,7 +26,6 @@ Input 2:
 
 1 2
 3 4
-
 
 Example Output
 Output 1:
@@ -44,7 +39,6 @@ Output 2:
 1 0
 2 3
 4 0
-
 
 Example Explanation
 For input 1:

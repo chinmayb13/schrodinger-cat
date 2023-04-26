@@ -16,18 +16,20 @@ Return 1 if the tree can be partitioned into two trees of equal sum else return 
 
 Example Input
 Input 1:
-                5
-               /  \
-              3    7
-             / \  / \
-            4  6  5  6
+
+	    5
+	   /  \
+	  3    7
+	 / \  / \
+	4  6  5  6
 
 Input 2:
-                1
-               / \
-              2   10
-                  / \
-                 20  2
+
+	  1
+	 / \
+	2   10
+	    / \
+	   20  2
 
 Example Output
 Output 1:
@@ -39,13 +41,14 @@ Output 2:
 Example Explanation
 Explanation 1:
 Remove edge between 5(root node) and 7:
-        Tree 1 =                                               Tree 2 =
-                        5                                                     7
-                       /                                                     / \
-                      3                                                     5   6
-                     / \
-                    4   6
-        Sum of Tree 1 = Sum of Tree 2 = 18
+
+	Tree 1 =                                               Tree 2 =
+	                5                                                     7
+	               /                                                     / \
+	              3                                                     5   6
+	             / \
+	            4   6
+	Sum of Tree 1 = Sum of Tree 2 = 18
 
 Explanation 2:
 The given Tree cannot be partitioned.

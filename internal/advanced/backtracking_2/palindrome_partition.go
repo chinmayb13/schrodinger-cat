@@ -30,14 +30,16 @@ A = "a"
 Example Output
 Output 1:
 [
-   ["a","a","b"]
-   ["aa","b"],
- ]
+
+	  ["a","a","b"]
+	  ["aa","b"],
+	]
 
 Output 2:
 [
-   ["a"]
- ]
+
+	  ["a"]
+	]
 
 Example Explanation
 Explanation 1:

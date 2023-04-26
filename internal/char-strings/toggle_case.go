@@ -12,7 +12,6 @@ A[i] ∈ ['a'-'z', 'A'-'Z']
 Input Format
 First and only argument is a character string A.
 
-
 Output Format
 Return a character string.
 
@@ -23,8 +22,7 @@ A = "Hello"
 Input 2:
 A = "tHiSiSaStRiNg"
 
-
-Example Output
+# Example Output
 
 Output 1:
 hELLO
@@ -32,8 +30,7 @@ hELLO
 Input 2:
 ThIsIsAsTrInG
 
-
-Example Explanation
+# Example Explanation
 
 Explanation 1:
 'H' changes to 'h'

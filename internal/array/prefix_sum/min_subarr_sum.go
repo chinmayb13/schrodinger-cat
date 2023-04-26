@@ -1,6 +1,6 @@
 package prefixsum
 
-//approach: using two pointers starIdx and i, calculate min subarray of sum >=k
+// approach: using two pointers starIdx and i, calculate min subarray of sum >=k
 func MinSubArrayLen(target int, nums []int) int {
 	startIdx := 0
 	localSum := 0

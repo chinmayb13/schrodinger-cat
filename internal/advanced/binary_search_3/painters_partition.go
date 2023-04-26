@@ -88,7 +88,7 @@ func buildPSAndGetMax(inp []int) int {
 	return max
 }
 
-//check if all the tasks can be completed with the time allotted per painter
+// check if all the tasks can be completed with the time allotted per painter
 func getTimeTakenTillIdx(inp []int, painters int, timePerPainter int) (int, int) {
 	maxTimeTaken := 0
 	idxTouched := -1

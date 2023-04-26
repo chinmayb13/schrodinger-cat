@@ -21,15 +21,19 @@ Return the B-th smallest element in the matrix.
 Example Input
 Input 1:
 A = [ [9, 11, 15],
-      [10, 15, 17] ]
+
+	[10, 15, 17] ]
+
 B = 6
 
 Input 2:
 A = [  [5, 9, 11],
-       [9, 11, 13],
-       [10, 12, 15],
-       [13, 14, 16],
-       [16, 20, 21] ]
+
+	[9, 11, 13],
+	[10, 12, 15],
+	[13, 14, 16],
+	[16, 20, 21] ]
+
 B = 12
 
 Example Output

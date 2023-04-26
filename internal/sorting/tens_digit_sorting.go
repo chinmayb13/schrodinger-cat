@@ -8,7 +8,6 @@ If a number has no tens digit, we can assume value to be 0.
 If 2 numbers have same tens digit, in that case number with max value will come first
 Solution should be based on comparator.
 
-
 Problem Constraints
 1 <= N <= 105
 1 <= A[i] <= 109

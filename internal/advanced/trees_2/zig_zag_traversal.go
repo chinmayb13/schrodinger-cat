@@ -15,32 +15,38 @@ Return a 2D integer array denoting the zigzag level order traversal of the given
 
 Example Input
 Input 1:
-    3
-   / \
-  9  20
-    /  \
-   15   7
+
+	  3
+	 / \
+	9  20
+	  /  \
+	 15   7
 
 Input 2:
-   1
-  / \
- 6   2
-    /
-   3
+
+	  1
+	 / \
+	6   2
+	   /
+	  3
 
 Example Output
 Output 1:
 [
-  [3],
-  [20, 9],
-  [15, 7]
+
+	[3],
+	[20, 9],
+	[15, 7]
+
 ]
 
 Output 2:
 [
-  [1]
-  [2, 6]
-  [3]
+
+	[1]
+	[2, 6]
+	[3]
+
 ]
 
 Example Explanation

@@ -17,20 +17,19 @@ Return an integer array denoting the Postorder traversal of the given binary tre
 Example Input
 Input 1:
 
-   1
-    \
-     2
-    /
-   3
+	1
+	 \
+	  2
+	 /
+	3
 
 Input 2:
 
-   1
-  / \
- 6   2
-    /
-   3
-
+	  1
+	 / \
+	6   2
+	   /
+	  3
 
 Example Output
 Output 1:

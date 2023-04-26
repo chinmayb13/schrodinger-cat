@@ -49,7 +49,7 @@ Explanation 1:
 Return the 2D array. Each row denotes the traversal of each level.
 */
 
-//idea: maintain a queue to to retain the level wise traversal
+// idea: maintain a queue to to retain the level wise traversal
 func GetLevelOrder(A *treeNode) [][]int {
 	var ans [][]int
 	var tempAns []int

@@ -15,7 +15,7 @@ Constraints
 1 <= length(S) <= 1e6
 S can have special characters
 
-Example
+# Example
 
 Input
 ABEC

@@ -22,18 +22,20 @@ Return an single integer denoting the size of the largest subtree which is also 
 
 Example Input
 Input 1:
-     10
-    / \
-   5  15
-  / \   \
- 1   8   7
+
+	    10
+	   / \
+	  5  15
+	 / \   \
+	1   8   7
 
 Input 2:
-     5
-    / \
-   3   8
-  / \ / \
- 1  4 7  9
+
+	    5
+	   / \
+	  3   8
+	 / \ / \
+	1  4 7  9
 
 Example Output
 Output 1:
@@ -45,9 +47,10 @@ Output 2:
 Example Explanation
 Explanation 1:
 Largest BST subtree is
-                            5
-                           / \
-                          1   8
+
+	  5
+	 / \
+	1   8
 
 Explanation 2:
 Given binary tree itself is BST.

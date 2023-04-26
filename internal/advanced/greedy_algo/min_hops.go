@@ -37,9 +37,13 @@ Output 2:
 Example Explanation
 Explanation 1:
 Here is the row having 15 seats represented by the String (0, 1, 2, 3, ......... , 14)
-                . . . . x . . x x . . . x . .
+
+	. . . . x . . x x . . . x . .
+
 Now to make them sit together one of approaches is -
-                . . . . . . x x x x . . . . .
+
+	. . . . . . x x x x . . . . .
+
 Steps To achieve this:
 1) Move the person sitting at 4th index to 6th index: Number of jumps by him =   (6 - 4) = 2
 2) Bring the person sitting at 12th index to 9th index: Number of jumps by him = (12 - 9) = 3

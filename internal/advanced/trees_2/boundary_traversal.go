@@ -9,29 +9,35 @@ Return an array of integers denoting the boundary values of tree in anti-clockwi
 
 For Example
 Input 1:
-               _____1_____
-              /           \
-             2             3
-            / \            /
-           4   5          6
-              / \        / \
-             7   8      9  10
+
+	    _____1_____
+	   /           \
+	  2             3
+	 / \            /
+	4   5          6
+	   / \        / \
+	  7   8      9  10
+
 Output 1:
-    [1, 2, 4, 7, 8, 9, 10, 6, 3]
-    Explanation 1:
-        The left boundary are node 1,2,4. (4 is the left-most node according to definition)
-        The leaves are node 4,7,8,9,10.
-        The right boundary are node 1,3,6,10. (10 is the right-most node).
-        So order them in anti-clockwise without duplicate nodes we have [1,2,4,7,8,9,10,6,3].
+
+	[1, 2, 4, 7, 8, 9, 10, 6, 3]
+	Explanation 1:
+	    The left boundary are node 1,2,4. (4 is the left-most node according to definition)
+	    The leaves are node 4,7,8,9,10.
+	    The right boundary are node 1,3,6,10. (10 is the right-most node).
+	    So order them in anti-clockwise without duplicate nodes we have [1,2,4,7,8,9,10,6,3].
 
 Input 2:
-                1
-               / \
-              2   3
-             / \  / \
-            4   5 6  7
+
+	    1
+	   / \
+	  2   3
+	 / \  / \
+	4   5 6  7
+
 Output 2:
-     [1, 2, 4, 5, 6, 7, 3]
+
+	[1, 2, 4, 5, 6, 7, 3]
 */
 func GetTreeBoundary(A *treeNode) []int {
 	var leftView, rightView []int

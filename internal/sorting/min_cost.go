@@ -44,7 +44,7 @@ Explanation 2:
 There is only one element in the array. So, cost of removing is 5.
 */
 
-//approach: The cost would be minimum if the least element has the max freuency and increasing elements would have decreasing frequency
+// approach: The cost would be minimum if the least element has the max freuency and increasing elements would have decreasing frequency
 func GetMinCost(A []int) int {
 	sort.Ints(A)
 	cost := 0

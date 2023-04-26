@@ -16,37 +16,41 @@ Return the linked-list after flattening.
 
 Example Input
 Input 1:
-     1
-    / \
-   2   3
+
+	  1
+	 / \
+	2   3
 
 Input 2:
-         1
-        / \
-       2   5
-      / \   \
-     3   4   6
+
+	    1
+	   / \
+	  2   5
+	 / \   \
+	3   4   6
 
 Example Output
 Output 1:
 1
- \
-  2
-   \
-    3
+
+	\
+	 2
+	  \
+	   3
 
 Output 2:
 1
- \
-  2
-   \
-    3
-     \
-      4
-       \
-        5
-         \
-          6
+
+	\
+	 2
+	  \
+	   3
+	    \
+	     4
+	      \
+	       5
+	        \
+	         6
 
 Example Explanation
 Explanation 1:

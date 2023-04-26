@@ -19,15 +19,17 @@ Return an integer, representing the maximum possible sum.
 Example Input
 Input 1:
 A = [
-       [1]
-       [2]
-    ]
+
+	   [1]
+	   [2]
+	]
 
 Input 2:
 A = [
-       [1, 2, 3, 4]
-       [2, 3, 4, 5]
-    ]
+
+	   [1, 2, 3, 4]
+	   [2, 3, 4, 5]
+	]
 
 Example Output
 Output 1:

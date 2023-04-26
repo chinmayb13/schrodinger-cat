@@ -23,7 +23,7 @@ A = 5
 Input 2:
 A = 8
 
-Example Output
+# Example Output
 
 Output 1:
 2

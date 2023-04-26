@@ -4,7 +4,7 @@ package hashing1
 Misha likes finding all Subarrays of an Array. Now she gives you an array A of N elements and told you to find the number of subarrays of A, that have unique elements.
 Since the number of subarrays could be large, return value % 109 +7.
 
-Problem Constraints
+# Problem Constraints
 
 1 <= N <= 105
 1 <= A[i] <= 106

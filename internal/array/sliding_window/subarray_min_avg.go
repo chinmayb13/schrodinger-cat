@@ -4,7 +4,6 @@ package slidingwindow
 Problem Description
 Given an array of size N, find the subarray of size K with the least average.
 
-
 Problem Constraints
 1<=k<=N<=1e5
 -1e5<=A[i]<=1e5

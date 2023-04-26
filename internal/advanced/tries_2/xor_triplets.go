@@ -34,13 +34,13 @@ Output 2:
 Example Explanation
 Explanation 1:
 All possible power triplets are:
-    1. (1, 2, 3) ->  A[1] = A[2] ^ A[3]
-    2. (1, 3, 3) ->  A[1] ^ A[2] = A[3]
+ 1. (1, 2, 3) ->  A[1] = A[2] ^ A[3]
+ 2. (1, 3, 3) ->  A[1] ^ A[2] = A[3]
 
 Explanation 2:
 All possible power triplets are:
-    1. (1, 2, 3) ->  A[1] = A[2] ^ A[3]
-    2. (1, 3, 3) ->  A[1] ^ A[2] = A[3]
+ 1. (1, 2, 3) ->  A[1] = A[2] ^ A[3]
+ 2. (1, 3, 3) ->  A[1] ^ A[2] = A[3]
 */
 func GetTripletCount(A []int) int {
 	xor := 0

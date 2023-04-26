@@ -19,18 +19,20 @@ Return 1 if it is sum-binary tree else return 0.
 
 Example Input
 Input 1:
-       26
-     /    \
-    10     3
-   /  \     \
-  4   6      3
+
+	     26
+	   /    \
+	  10     3
+	 /  \     \
+	4   6      3
 
 Input 2:
-       26
-     /    \
-    10     3
-   /  \     \
-  4   6      4
+
+	     26
+	   /    \
+	  10     3
+	 /  \     \
+	4   6      4
 
 Example Output
 Output 1:

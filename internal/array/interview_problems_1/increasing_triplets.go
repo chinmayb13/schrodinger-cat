@@ -14,7 +14,7 @@ First argument A is an array of integers.
 Output Format
 Return an integer.
 
-Example Input
+# Example Input
 
 Input 1:
 A = [1, 2, 4, 3]

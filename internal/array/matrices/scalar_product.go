@@ -4,7 +4,6 @@ package matrices
 Problem Description
 You are given a matrix A and and an integer B, you have to perform scalar multiplication of matrix A with an integer B.
 
-
 Problem Constraints
 1 <= A.size() <= 1000
 1 <= A[i].size() <= 1000
