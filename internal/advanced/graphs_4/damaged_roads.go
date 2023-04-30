@@ -105,7 +105,7 @@ func GetMinRepairCost(A []int, B []int) int {
 		if items[i].id == 1 {
 			ans = (ans + (items[i].val*M)%mod) % mod
 			N--
-		//else column cost, multiply with remaining rows
+			//else column cost, multiply with remaining rows
 		} else {
 			ans = (ans + (items[i].val*N)%mod) % mod
 			M--
